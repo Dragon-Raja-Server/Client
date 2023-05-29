@@ -318,6 +318,7 @@
     <ClCompile Include="DualMgr.cpp" />
     <ClCompile Include="EditWndMgr.cpp" />
     <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="EnCryptClass.cpp" />
     <ClCompile Include="exchangemgr.cpp" />
     <ClCompile Include="FrameMgr.cpp" />
     <ClCompile Include="ftwbrk.cpp" />
@@ -427,6 +428,7 @@
     <ClInclude Include="DualMgr.h" />
     <ClInclude Include="EditWndMgr.h" />
     <ClInclude Include="Effect.h" />
+    <ClInclude Include="EnCryptClass.h" />
     <ClInclude Include="exchangemgr.h" />
     <ClInclude Include="FileMgr.h" />
     <ClInclude Include="FrameMgr.h" />
@@ -486,6 +488,7 @@
     <ClInclude Include="Sdlang.h" />
     <ClInclude Include="SealStone.h" />
     <ClInclude Include="SecuritySystem.h" />
+    <ClInclude Include="Singleton.h" />
     <ClInclude Include="Skill.h" />
     <ClInclude Include="SkillTool.h" />
     <ClInclude Include="skill_lsw.h" />
