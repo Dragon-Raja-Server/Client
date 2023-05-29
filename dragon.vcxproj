@@ -319,6 +319,7 @@
     <ClCompile Include="EditWndMgr.cpp" />
     <ClCompile Include="Effect.cpp" />
     <ClCompile Include="EnCryptClass.cpp" />
+    <ClCompile Include="EnCryptMgr.cpp" />
     <ClCompile Include="exchangemgr.cpp" />
     <ClCompile Include="FrameMgr.cpp" />
     <ClCompile Include="ftwbrk.cpp" />
@@ -369,6 +370,7 @@
     <ClCompile Include="Quest.cpp" />
     <ClCompile Include="QuestFunction.cpp" />
     <ClCompile Include="QuestLog.cpp" />
+    <ClCompile Include="SDL2Render.cpp" />
     <ClCompile Include="SecuritySystem.cpp" />
     <ClCompile Include="Skill.cpp" />
     <ClCompile Include="SkillTool.cpp" />
@@ -429,6 +431,7 @@
     <ClInclude Include="EditWndMgr.h" />
     <ClInclude Include="Effect.h" />
     <ClInclude Include="EnCryptClass.h" />
+    <ClInclude Include="EnCryptMgr.h" />
     <ClInclude Include="exchangemgr.h" />
     <ClInclude Include="FileMgr.h" />
     <ClInclude Include="FrameMgr.h" />
@@ -485,6 +488,7 @@
     <ClInclude Include="QuestLog.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="SDDIALOG.H" />
+    <ClInclude Include="SDL2Render.h" />
     <ClInclude Include="Sdlang.h" />
     <ClInclude Include="SealStone.h" />
     <ClInclude Include="SecuritySystem.h" />

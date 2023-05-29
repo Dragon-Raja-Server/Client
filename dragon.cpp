@@ -149,6 +149,8 @@ extern void		ItemRead();
 extern void PutStartLodingImg( );		// 0127 YGI
 			
 #include "Path.h"
+#include "SDL2Render.h"
+#include "EnCryptMgr.h"
 			
 char nOldVal[MAX_PATH];
 			
@@ -409,73 +411,25 @@ int APIENTRY WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdL
 		g_DBGLog.Log(LOG_LV1,"Instance Init Failed");
 	 	return	FALSE;
 	}
-/*
-#ifndef _DEBUG1
-	#if defined (KOREA_LOCALIZING_)
-		if (checkbeta == '1')
-		{	//< CSD-040318
-			if (!g_sysSecurity.CheckFileName("dragonraja_b.bin"))
-			{
-				ExitWindows(EWX_SHUTDOWN, 0);
-				return FALSE;
-			}
-		}
-		else
-		{
-			if (!g_sysSecurity.CheckFileName("dragonraja.bin"))
-			{
-				ExitWindows(EWX_SHUTDOWN, 0);
-				return FALSE;
-			}
-		}	//> CSD-040318
-	#endif
-
-	#ifndef KOREA_LOCALIZING_
-		const int nError = g_sysSecurity.Connect(g_hwndMain);
 	
-		if (nError != 1)
-		{
-			MessageBox(NULL, VA("Connect Error!\nERR.CODE.00%d!", nError), "Run Error", NULL);
-			return FALSE;
-		}
-	
-		g_idSafeTimer = SetTimer(g_hwndMain, 24, 1000, TimerProc);
-		
-		if (g_idSafeTimer == 0)
-		{
-			return FALSE;
-		}
-	#endif	
-#endif
-	*/
-	//> CSD-040224
-	/*
-	//< CSD-TEST : SafeMeme Å×½ºÆ®
-	const int nError = g_sysSecurity.Connect(g_hwndMain);
-
-	if (nError != 1)
-	{
-		MessageBox(NULL, VA("Connect Error!\nERR.CODE.00%d!", nError), "Run Error", NULL);
-		return FALSE;
-	}
-
-	g_idSafeTimer = SetTimer(g_hwndMain, 24, 1000, TimerProc);
-	
-	if (g_idSafeTimer == 0)
-	{
-		return FALSE;
-	}
-	//> CSD-TEST
-	*/
-
-	
-	BeforeExe(lpCmdLine);
-	
+	//BeforeExe(lpCmdLine);
+#ifndef _SDL2
 	if ( !InitDirectDraw( g_hwndMain, &g_DirectDrawInfo ) )
 	{	
 		g_DBGLog.Log(LOG_LV1,"DDraw Init Failed");
 	 	return	FALSE;
 	}	
+#else
+	if (!InitSDL())
+	{
+		MessageBox(NULL, "SDL", "SDL Failed to Init!", NULL);
+		g_DBGLog.Log(LOG_LV1, "InitSDL() Init Failed");
+		ExitApplication(EA_NORMAL);	//051013_KCH memory leak Á¦°Å
+		return	FALSE;
+	}
+	SDL_SetWindowTitle(g_pl11l->GetSDLWindow(), "DragonRaja - Rogério");
+
+#endif
 	if ( InitDirectInput( g_hwndMain, g_hInstance, g_bIsActive ) != DI_OK )
 	{		
 		g_DBGLog.Log(LOG_LV1,"DInput Init Failed");
@@ -1163,7 +1117,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 			{
 				g_curr_time++;
 				g_packet_recv_send_checktime++;
-				DecMallItemTime();
+				//DecMallItemTime(); //removed by rogerio at 2023-05-29 to test others things
 			}
 			if (wParam == 14)
 			{

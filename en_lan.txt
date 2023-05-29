@@ -1,0 +1,3223 @@
+[melee]
+1 : "Switched to PEACE mode."
+2 : "Switched to BATTLE mode."
+3 : ""
+4 : ""
+5 : ""
+6 : ""
+7 : ""
+8 : ""
+9 : ""
+10 : ""
+11 : "%s hits you with a snowball in a snowball fight."
+12 : "%s hits you with a coke can in a coke can fight."
+13 : "%s hits you with a water balloon in a water balloon fight."
+14 : ""
+15 : ""
+16 : ""
+17 : ""
+18 : ""
+19 : ""
+20 : "This function can only be used at level 20 and below."
+    
+21 : ""
+22 : ""
+23 : ""
+24 : ""
+25 : ""
+26 : ""
+27 : ""
+28 : ""
+29 : ""
+30 : ""
+    
+31 : "You are not holding an arrow."
+32 : ""
+33 : ""
+34 : ""
+35 : ""
+36 : ""
+37 : ""
+38 : ""
+39 : ""
+40 : "Lasting time %d Sec."
+    
+41 : "You are in a normal condition."
+42 : "You are able to act."
+43 : "You have been weakened"
+44 : "You have been slowed down."
+45 : "You have been confused."
+46 : "You have been poisoned."
+47 : "You become a stone."
+48 : "You met your demise."
+49 : ""
+50 : ""
+    
+51 : "The opponents rare item is effecting your magical abilities."
+52 : "The rare item is effecting your magical abilities."
+53 : "The opponents rare item is effecting your life points."
+54 : "The rare item is influencing your life points."
+55 : "The opponents rare item absorbs your divine points."
+56 : "The rare item absorbs the opponents divine points."
+57 : ""
+58 : ""
+59 : ""
+60 : ""
+    
+61 : "The opponents rare item has paralyzed you."
+62 : "The rare item paralyzes the opponent."
+63 : "The opponents rare item confuses you."
+64 : "The rare item confuses the opponent."
+65 : "You are paralyzed due to deflect magic."
+66 : "You are confused due to deflect magic."
+67 : ""
+68 : ""
+69 : ""
+70 : ""
+    
+71 : "The opponents rare item reflects the damage."
+72 : ""
+73 : ""
+74 : ""
+75 : ""
+76 : ""
+77 : ""
+78 : ""
+79 : ""
+80 : ""
+    
+81 : "Unable to do casting due to rare items."
+82 : ""
+83 : ""
+84 : ""
+85 : ""
+86 : ""
+87 : ""
+88 : ""
+89 : ""
+    
+100 : "There are too many users logged in. Please log in again later."
+
+101 : "We are voting to attack to the [%s] of the [ %s ] nation. Please join the vote by pushing the 'war managing center' button."
+102 : "Nation war will be started in [ %s ] nation's [%s] in 2 hours."
+103 : "The war is postponed to a later time, because there are not enough participators."
+104 : "You agreed to participate in war in the [%s]."
+105 : "The opponent's country declared Nation war. [ %s ]!! Get ready to defeat the opponent." 
+106 : "[ %s ] declared war to [ %s ]. War will break out in 2 hours at [%s]."
+107 : "We are collecting a unit member to participate in war now. please form a unit by clicking the 'war managing office' button."
+108 : "We are collecting hired soldiers to take part in the war between Vyseus and Zypern. Please participate in the war as a hired soldier by clicking the 'war managing office button'."
+109 : "--==[%s]==-- was elected as a commander of this war."
+110 : "To take part in the [ %s ] war, You chose the [%d] unit."
+111 : "You participate in war as a hired soldier of [ %s ]."
+112 : "You registered as a commander candidate."
+113 : "You appointed a route of attack, the appointed route of attack cannot be changed."
+114 : "The war is started in [ %s ] nation's [%s]. Please let all people join in the war."
+115 : "The all-out attack has started for [ %s ]'s [%s]."
+116 : "The [ %s ] nation started the all-out attack for [ %s ]'s [%s]. The nation of Yllse is participating as hired soldiers in both nations."
+117 : "With the victory of war, you occuppied [ %s ]'s [%s]."
+118 : "With the victory of war, you defended [%s]."
+119 : "You were defeated in the war with the [ %s ] nation."
+120 : "By being defeated in the war with the [ %s ] nation, You lost [ %s ]."
+121 : "In the war between Vyseus and Zypern in [%s], the [ %s ] nation is victorious."
+122 : "By the attack of [ %s ], the shield stone of the [ %s ] nation was destroyed. [ %d ] of the shield stones are left."
+123 : "By the attack of [ %s ], [ %s ]'s [ %d gate ] has been destroyed.
+124 : "By [ %s ]'s attack, the last [ %s ] shield stone has been destroyed."
+125 : "Because the shield stone power of [ %s ] weakened, the secret area is being opened."
+126 : "You distinguished yourself in the war, you obtained [ %d fame ]."
+127 : "You donated money to the nation, you obtained [ %d fame ]."
+128 : "The [ %s ] nation's [ %s ] increased the fighting spirit of our [ %s ] unit."
+129 : "The [ %s ] nation's [ %s ] tried to increase the fighting spirit of our unit, but failed."
+130 : "The [ %s ] nation's [ %s ] decreased the fighting spirit of the [ %s ] enemy unit."
+131 : "The [ %s ] nation's [ %s ] tried to decrease the fighting spirit of the enemy unit, but failed."
+132 : "The [ %s ] nation's [ %s ] filled up energy of the [ %s ] unit."
+133 : "The [ %s ] nation's [ %s ] filled up all mana of the [ %s ] unit."
+134 : "The [ %s ] nation's [ %s ] saved all ghosts of the [ %s ] unit."
+135 : "Because of [ %s ]'s attack, the [ %s ] nation's [ %s ], commanding officer has died in war."
+136 : "Because of [ %s ]'s attack, the [ %s ] nation's [ %s ], commander has died in war."
+137 : "You died by the attack of [ %s ]."
+138 : "You killed [ %s ]."
+139 : "You cannot use this as it is not the right term to use it."
+140 : "You are not qualified to be able to use this."
+
+142 : "From [ %s ], this is the place where you can vote on the war declaration. Either yes or no to retake [ %s ]. The vote is held for one hour. If the result is over 50 persons within the term, the war declaration will be formed automatically. After the war declaration, the war starts in one hour." 
+143 : "In case you want to participate in the [ %d unit ] in the war, please press the 'Yes' button. He who registers the first becomes a commanding officer. \n=====[Unit registration item]=====\n -[first unit] : Lv 20 ~ 50 \n - [second unit] : Lv 40 ~ 70 \n - [third unit] : Lv 60 ~ 90 \n -[fourth unit] : Lv 80 ~ 99 \n Commanding officer function: /*1  unit function: /unit \n unit chatting : /* contents"
+144 : "<<<<<<<< Commander candidate registration >>>>>>>> \n If you want to register the best leader, commander, please press the 'Yes' button. The commander vote term lasts one hour, the candidate who receives the most support becomes the commander. \n =====[Commander candidate capacity term]===== \n [Level] over 70 \n  [Fame] over 1200 \n  [Ladder]  over 2000 \n =====[Commander function] ===== \n   /commander/*1 /*2 /*3 /*4" 
+145 : "This is the place where to appoint a route of attack of a unit in this war. The commanding officer only appoints the route of attack of a unit. In case the commanding officer appoints the route of attack of a unit, the indication appears in the left map. In case the commanding officer does not appoint the route of attack of a unit or he is not a unit member, you start at the place which is the farthest away from the castle."
+146 : "Do you want to appoint the route of attack in %s? You cannot change the appointed route of attack until this war finishes."       
+147 : "The [ %s ] nation raised the war to rob [ %s ]. To defend the castle from an attack of the hostile nation, the protection stone must be defended in order to protect the castle. In case you are a ghost in the battlefield, you can type [ /revival ] and will be revived automatically."
+148 : "The war held in [ %s ] of the [ %s ] nation has started. If you want to participate in the battle, after breaking 4 protection stones in the castle, you must break the last protection stone in the castle. In case you are a ghost in the battlefield, you can type [ /revival ] and will be revived automatically."
+149 : "<<<<<<The present nation possession>>>>>> \n <<mountain>> : [ %s ] \n  <<plain>> : [ %s ] \n  <<island>> : [ %s ] \n War progress method: if the participation vote is high in the war participation vote of the attacking nation, the war is declared to both nations and will begin in 2 hours. War participation method: after war declaration, Vyseus and Zypern can be joined through unit formation, the people of Yllse are hired as soldiers."
+150 : "The present war weapon buying breakdown is the same as the follower. %d buying item %d piece total expense %d Crit commanding officer and commander only can buy item. To buy the item, please press the 'Yes' button."
+
+151 : "============= Commander's message ============="
+152 : "/*1 contents : When the commander sends a message to the commanding officer."
+153 : "/*2 contents : When the commander sends a message to the whole unit."
+154 : "/*3 contents : When the commander sends a message to his own people in the battlefield."
+155 : "/*4 contents : When the commander sends a message to the people in the map of his own nation."
+156 : "============== Unit position =============="
+157 : "You belong to the **[[ %d unit]]**. "
+158 : "0 unit appears not to belong to any unit."
+159 : "============== Unit message =============="
+160 : "/*1 contents : When the commanding officer send a message to the commander"
+161 : "/*2 contents : When a unit member send a message to another unit member of his own unit."
+
+162 : "You can use this only in the battlefield."
+163 : "Only a commander and a commanding officer can use this."
+164 : "Only a commander can use this."
+165 : "Only a unit member can use this."
+166 : "You cannot participate in the war participation vote."
+167 : "You already vote in the war participation vote."
+168 : "The commanding officer cannot change a unit."
+169 : "You change the position unit that participates in the %s war from the %d unit to the %d unit." 
+170 : "You apply for commanding officer in the %s war, in the %d unit."
+171 : "The defending nation cannot choose the point of attack."
+172 : "Only the commanding officer can appoint the point of attack."
+173 : "You already registered as a commander candidate."
+174 : "You did not register as a candidate."
+175 : "You already have the commander vote."
+176 : "You did not register as a candidate."
+177 : "For commander of < %s >, you supported the < %d candidate >."
+178 : "It is not the vote term of war participation."
+179 : "The Yllse nation cannot use this. Please join the war as a hired soldier in the hired soldier formation menu."
+180 : "The war managing office recruits units that participate in the < %s > war."
+181 : "There is no battlefield that prepares for the war."
+182 : "It is not the commander vote term."
+183 : "The commander candidate did not register."
+184 : "You could not vote."
+185 : "You could not join the unit."
+186 : "You could not appoint the point of attack of the unit."
+187 : "Only the people of Yllse can use this."
+188 : "It is not the condition that can form a hired unit."
+189 : "There is no battlefield where there is fought."
+190 : "You cannot appoint the point of attack of another unit."
+191 : "Only the commanding officer can appoint the point of attack."
+192 : "Because the power of the < %s > protection stone weakens, the secret area is opened."
+193 : "You cannot move to the battlefield."
+194 : "We are receiving the unit registration to join the < %s > war."
+195 : "You became the commander of this war. From now, you will do the duty of a commander."
+196 : "< %s > became commanding officer. You will do the duty of a commanding officer."
+197 : "Only in the war preparation term can you register a unit."
+198 : "===========<< war reparation >>==========="
+199 : "Through setting up many merits in the war, the country rewards you as a follower."
+200 : "[fame] : %d"
+201 : "[experience rate] : %d"
+202 : "Current Dual fame is [%d]. Dual fame is adjusted in case of dual."
+203 : "You are compensated as followers with meritorious deeds of contributing to the war."
+204 : "[ %s ]'s [ %d unit ]'s attack point is the [ %d area ]."
+
+
+205 : "Vyseus"
+206 : "Zypern"
+207 : "Yllse"
+208 : "Mountains"
+209 : "Plain"
+210 : "Island" 
+211 : "This function can only be used in the [battlefield]."
+212 : "This is the message function that only the [commander] or the [commanding officer] can use." 
+213 : "This is the message function that only the [commander] can use."
+214 : "This is the message function that only a [unit member] can use."
+215 : "Now, clothing number is %d..."
+216 : "It is the command word that can only be used in the [battlefield]."
+217 : "It is the command word that can only be used [in war]."
+218 : "It is the command word that can only be used in the condition of a [ghost]."
+219 : "For fast restoration, you must eat food and potions."
+220 : "You cannot make a war participation vote."
+221 : "You already made a war participation vote."
+222 : "You defined the war participation meaning to attack [ %s ] of the hostile nation."
+223 : "The people of the defending nation cannot make a war participation vote."
+224 : "Awaiting registration..."
+225 : "The commanding officer cannot change the unit."
+226 : "You cannot register yourself to the other unit."
+227 : "You registered as a unit member of [ %s ]'s [%d unit]."
+228 : "You are not of a suitable level to register the unit."
+229 : "You registered for the commanding of [ %s ]'s [%d unit]."
+230 : "The [defending nation] does not need to appoint the point of attack."
+231 : "Only the [Commanding officer] can appoint the point of attack ."
+232 : "You appointed the route of attack of [ %s ]'s [%d unit] to the [ %d ] area."
+233 : "You asked for the registration of [ %s ]'s [ %d ] candidate."
+234 : "You do not have the ability to register the commander candidate."
+235 : "You already registered the commander candidate."
+236 : "You could not register the commander candidate."
+237 : "You registered the commander candidate."
+238 : "You already made the commander vote."
+239 : "For the commander of [ %s ], you supported the [ %d ] candidate."
+240 : "You belong to a [Zypern] hired soldier in this war."
+241 : "You belong to a [Vyseus] hired soldier in this war."
+242 : "Receiving the vote of the people about [ %s ] war declaration."
+243 : "The Yllse nation cannot make a war participation vote."
+244 : "The defending nation cannot make a war participation vote."
+245 : "There is no battlefield that is receiving a war participation vote."
+246 : "The Yllse nation must join the war as a hired soldier by choosing [hired soldier formation]."
+247 : "Collecting the unit that will participate in the war of [ %s ]."
+248 : "You can use only the term of [on preparing the war] and [at war]."
+249 : "You can use only the term of [on preparing the war]."
+250 : "It is not a [commander vote] term."
+251 : "[Commander candidate] was not registered."
+252 : "You failed to vote."
+253 : "You failed to register in a unit."
+254 : "The attack point of the unit is not appointed."
+255 : "Only the Yllse nation can use this."
+256 : "It is not the condition that form a hired soldier unit."
+257 : "You already chose the nation where you will participate as as a hired soldier."
+258 : "You can use this only during the [at war] term."
+259 : "You cannot appoint a route of attack of another unit."
+260 : "For some time now the war did not break out. Vyseus and Zypern will maintain an armistice condition."
+261 : "War broke out in [ %s ]'s [ %s ]. EVeryone, please join the war!"
+262 : "War map's [ %d ] shield stone at ( %d, %d ) has broken because of attack."
+263 : "War map's [ %d ] gate at ( %d, %d ) has broken because of attack. Because the castle gate has broken, enemies can invade the castle."
+264 : "[Attacking nation] commander, [ %s ] died."
+265 : "[Attacking nation] commanding officer, [ %s ] died."
+266 : "[Defending nation] commander, [ %s ] died."
+267 : "[Defending nation] commanding officer [ %s ] died."
+268 : "Through defeat of the war, [ %s ] becomes in possession of the hostile nation, the hostile nation took < %s Crit >."
+269 : "The commander consumed [ %s Crit]  to buy an item."
+270 : "The commander consumed [ %s Crit] to buy a weapon."
+271 : "The commander must consume [ %s Crit] to buy an item, but there is not enough treasury."
+272 : "The commander must consume [ %s Crit] to buy a weapon, but there is not enough treasury."
+273 : "Through victory of the war, your nation now possess [ %s ], your nation took < %s Crit> from the hostile nation."
+274 : "It is not the condition that can move to battlefield."
+275 : "Collecting a hired unit that will join the war of [ %s ]."
+276 : "You were elected [commander]. You will perform in this war."
+277 : "You belong to a unit."
+278 : "You do not have enough [ability rate] to become the [commanding officer]."
+279 : "Because the unit is full, you cannot register to the unit."
+280 : "Through victory of the war, your nation now possess [ %s ]. Unfortunately, because the treasury was empty, your country could not take any treasury."
+281 : "Through defeat of the war, the hostile nation now possess [ %s ]. The treasury of your nation is now empty."
+282 : "In case you are under level 10, you cannot join the war."
+283 : "You must form a hired soldier unit."
+284 : "Local war started. Click the 'war participation' button to take part in the war."
+285 : "By typing [ /The eyes of Athyas ] at war, the enemy's location will appear on the mini-map in the form of a red spot."
+286 : "By typing [ /The will of Nhilim ] at war, the enemy's location will appear on the mini-map in the form of a red spot."
+287 : "By typing [ /The justice of Orem ] at war, the enemy's location will appear on the mini-map in the form of a red spot."
+288 : "Member of those who can do Map movement is in excess."
+289 : "Monster has invaded [ %s ]."
+290 : "Move to [ %s ] guild Emporia."
+291 : "This is [ %s ] guild Emporia."
+292 : "In %s, this unit function is not usable."
+293 : "You are in the status of having proposed to serve as a hired soldier of war."
+294 : "You proposed to serve as a hired soldier of Vyseus."
+295 : "You proposed to serve as a hired soldier of Zypern."
+296 : "This is not a usable function in Snow Warfield."
+297 : "The war in Snow Warfield has just started. Participate in the war right now please!"
+298 : "The war in Snow Warfield has just finished."
+299 : "There is no place in War now."
+
+300 : "0No information       No more information is received now."
+301 : "2Participate vote     Having a war participation vote to occupy [ %s ]. Now, the people who inform the participation are [ %d ] persons, if the number of votes is over [ 50 persons ],  the nation declares war. The remaining vote time is [ %d hours %d minutes ], please participate in voting by pressing the 'war control office' button." 
+302 : "2Participate vote     The [ %s ] nation asks for the meaning of the nation to occupy the battlefield. The war declaration, whether yes or no, of the hostile nation will be decided within an hour, please do not breathe easy yet."
+303 : "2Participate vote     The [ %s ] nation asks for the meaning of the nation to occupy the battlefield. The war declaration, whether yes or no, will be decided within an hour, in case of an emergency, the war of Vyseus and Zypern may happen."
+304 : "2Commander vote       For preparing this war, you elect the commander who will control the battlefield. \n [ %s ] has the most support at the moment. The commander vote lasts for an hour, you can make the commander vote in the unit formation meny, by pressing the 'war managing center' button."
+305 : "1Unit recruit         There will be a war with the hostile army in [ %s ]. When the war starts, in [ %d hour %d minutes ] from now, you'd better be fully prepared. To prepare for a war, you should enlist a unit. Please press the 'war control office' button to register to the unit formation." 
+306 : "1H-soldier recruit    The [ %s ] nation declared the war to [ %s ] nation's [ %s ]. After [ %d hour %d minutes ], they will perform an all-out attack. The Yllse nation can participate in the war at the side of both nations as a hired soldier.  To participate in the war, please press the 'war control office' button, where you can make a hired soldier formation."
+307 : "2Be Commander         [ %s ] was elected for commander and will control this war. According to the instruction of the commander, please join the war!"
+308 : "1H-S unit recruit     Through the power of [ %s ], the balance of power is breaking now. By the power of Yllse's units, the balance can be maintained. After [ %d hour(s) %d minute(s) ], there will be an all-out attack, please press the 'war control office' button to form a hired unit."
+309 : "1At war               The [ %s ] nation, eternal enemy, invades our land of nation [ %s ]. Until the support armies come, in [ %d hour(s) %d minute(s)], we must stand ground, the victory will be ours. Please join the war by pressing the 'war control office' button and participate in the battlefield."
+310 : "1At war               It is time to show our power to [ %s ], the eternal enemy. From now, we will perform an all-out attack in [ %s ]. Until the support armies of the enemy come, in [ %d hour(s) %d minute(s)], if we can destroy all protection stones, we will achieve victory. Please join the war by pressing the 'war control office' button and participate in the battlefield."
+311 : "1Other nation         The [ %s ] nation is performing an all-out attack to the [ %s ] nation's land, [ %s ]. Within [ %d hour(s) %d minute(s)], victory or defeat is decided. During the war preparation term, to all people who apply as a hired soldier: please join the war!" 
+312 : "3Secret area          Because the power of the shield stone of [%s] has weakened, you can go in and out of the secret area in the battlefield for an hour. Although strong monsters infest the secret area, there is lots of treasure."
+313 : "1Victory of war       You defeated the hostile army in [ %s ] in a violent battle. By defeating the hostile army, you occuppied [ %d Crit ] of the treasury of the enemy. A part of this treasury will be added to the treasury of our own nation, the remainder will be divided among all soldiers who participated in the war."
+314 : "1Defeat of war        You were disgraced by the defeat in the [ %s ] war with the hostile nation. Because you were defeated, [%d Crit] of your nation's treasury was occuppied by the hostile nation. Your nation is now in need of a lot of money to reconstruct the nation. The nation needs the donations of the people."
+315 : "3Secret area          Because the power of the shield stone of [ %s ] has weakened, you can go in and out of the secret area in the battlefield for an hour. Although strong monster infest in secret area, there is lots of treasure. The Yllse people who joined the war as a hired soldier at the side of victorious nation now have the ability to go in and out of the secret area."
+316 : "1Issue of war         The [ %s ] nation won in the war between Vyseus and Zypern. The victorious nation dominated the battlefield and occuppied a part of the treasury of the hostile nation." 
+317 : "1On armistice         There is no action available to the hostile nation to make war. During the armistice term, you had better increase battle power for war preparation. Also, please make a donation for the defense system of the nation." 
+319 : "1H-soldier of war     Vyseus and Zypern are now at war. The Yllse nation can apply as a hired soldier to join the war. You can apply as a hired soldier during the war preparation term only."
+320 : "1H-soldier of unit    When one nation is beginning to dominate the battlefield and the balance of power is going to break, the Yllse nation can help the lesser power by forming a unit. During this term, you cannot join in a personal hired soldier unit." 
+321 : "1At war               The [ %s ] nation possessed all battlefields through victory of numerous wars. But the hostile nation [ %s ] started the all-out attack now. In this war Yllse units will become a big enemy. Until [ %d hour(s) %d minute(s) ], we must defend [ %s ] by ourselves." 
+322 : "1At war               We lost all battlefields through continuous and disgracing defeats. We must attack the hostile nation [ %s ]. In this war Yllse units will aid us, we must regain [ %s ] within [ %d hour(s) %d minute(s)]."
+323 : "1Other at war         The all-out attack has started so that [ %s ] will break down which should destroy the balance of power. Yllse units are active in [ %s ] now. We should regain the battlefield within [ %d hour(s) %d minute(s) ]."
+324 : "1Result of war        In the [%s] war between Vyseus and Zypern, [ %s ] nation was victorious. Through this war, the [ %s ] nation was severely damaged." 
+325 : '1Remaining time       According to the agent, there is to be war soon. \n      [ %s  %d O'clock ] : %s \n [ %s  %d O'clock ] : %s \n[ %s  %d O'clock ] : Snow Warfield\n"
+326 : "Once complete, ability reset cannot be undone. Therefore, make sure you want to continue!! (Dual class characters cannot reset their ability). Ability reset requires the following amount of money to be in the bank.\n Level   Money      Level   Money\n1~9  :  100,000    10~19:  1,000,000 \n 20~29:  5,000,000  30~49:  10,000,000 \n 50~  :  50,000,000"
+327 : "          <<< Local war >>> \n "Break all sanctuary stones of the hostile nation and you will be victorious. Only after breaking all sanctuary stones of the hostile nation in the present map, will you be able to move to the next map. \n<Defense level and Score >\n - The nation with the highest defense level will win the war. In case the defense levels are the same, the nation with the highest score will win the war. .\n <Benefits> Being victorious in the war, can get you Fame and Experience value according to your contribution. .\n /%% Writings : Able to have a conversation with local war participants."
+328 : "You can choose from area 0 to 3 for resurrection."
+329 : "Characters below level 10 cannot take part in a war."
+330 : "Only people who are in a unit can take part in war."
+331 : "You cannot move to there because it doesn't belong to your nation."
+332 : "You cannot enter now because of the preparations that are being made for the next war."
+333 : "%04d members."
+334 : "Dual class characters cannot reset ability."
+335 : "Your ability has been reset."
+336 : "Failed to reset ability due to insufficient bank balance."
+337 : "War participation is only possible in your own nation's map."
+338 : "You were victorious in a local war."
+339 : "You were defeated in a local war."
+340 : "[ %s ]'s [ %d, %d ] sanctuary stone was destroyed by the enemy's attack. The enemy will invade."
+341 : "[ %s ]'s [ %d, %d ] sanctuary stone is under the enemy's attack. In case of its destruction, enemy's invasion is expected."
+342 : "Unable to move in the state of sitting. If you want to move, unequip the chair item."
+343 : "This function is only possible in the state of standing."
+344 : "Those who do not participate in a local war cannot attack sanctuary stones."
+345 : "Physical attack, magic and skill are not connected between a participant and a non-participant in a local war map."
+346 : "Unable to use physical attack, magic and skill until the fist-to-fist fighting starts."
+347 : "Unable to use physical attack, magic and skill in the OX quiz map. "
+348 : "Dual class characters cannot reset ability."
+349 : "You applied for participating in a fist-to-fist fighting tournament."
+350 : "Able to register at homepage only after filing an application."
+351 : "Your level isn't qualified for this tournament. Register for a tournament suitable for your level to participate."
+352 : "The fist-to-fist fighting tournament is full."
+353 : "You are only able to move to the place of the tournament in case you filed an application."
+354 : "Today's fist-to-fist fighting tournament is over."
+355 : "Applying for fist-to-fist fighting tournament of level [ %d ] - [ %d ] is done at [ %s ] map's [ %d, %d ]."
+356 : "Fist-to-fist fighting tournament participants of level [ %d ] - [ %d ]! Move to the tournament place at [ %s ]map's [ %d, %d ]."
+357 : "The fist-to-fist fighting tournament of level [ %d ] - [ %d ] has begun."
+358 : "The fist-to-fist fighting tournament of level [ %d ] - [ %d ] has ended."
+359 : ""
+360 : "It is in the fist-to-fist fighting tournament where the strongest of all nations meet to display their ability... Three times a day tournaments are held and the procedure is the following. \n [ Tournament procedure ] \n Registering to take part in the tournament -> Moving to the place of the tournament-> Start of the tournament \n [ Tournament method] : Killing as many enemies as possible in a fixed time. \n If you want to take part in this, click the 'Yes' button."
+361 : "It's time to move to the place of the fist-to-fist fighting tournament. Unable to use physical attack, magic and skill until fist-to-fist fighting starts in the tournament place. \n Unable to return to the village after entering, therefore, you'd better prepare yourself with potions in advance. \n If participants want to move to the tournament place, they should click the 'Yes' button."
+365 : "Choose the map you want to move to."
+366 : "You were defeated in a war because your nation failed to protect its sanctuary stones."
+367 : "The [ %s ] nation was defeated in a war because all of its sanctuary stones were destroyed."
+368 : "You are only able to move to a local war map when participating in a local war."
+369 : "You are only able to move to a local war map of your own nation's territory."
+370 : "You are only able to use this when participating in a local war."
+371 : "You are only able to use this in a local war."
+372 : "You are unable to participate in a war because you lost in a war..."
+373 : "You are unable to complete this quest in the current mode. If you do not want to complete the quest, type '/Quest Off'."
+374 : "You are unable to complete this quest in the current mode. If you want to complete this quest, type '/Quest On'."
+375 : "You are unable to use the 'Getting-happy' emotion or 'Getting-angry' emotion in a non-peace mode. Switch to PEACE mode."
+376 : "Only level 41 and up can use the 'Getting-happy' emotion."
+377 : "Only level 61 and up can use the 'Getting-angry' emotion."
+378 : "<<< Local war >>> \n <How to win> \n You must break all sanctuary stones of the hostile nation in order to win. In case not all sanctuary stones were broken in the given time, the nationwith the highest defense level will be victorious. In case the defense level is the same, the nation with the highest nation score will be victorious. \n <How to move to the other nation in the next map> \n Only after breaking all sanctuary stones of the nation in the present map, are you able to move to the next map."
+379 : "<<< Defense level and score >>> \n Defense level and score influence the outcome of war and appear in the upper right part of the screen.\n <Defense level>\n Defense level is decided by the number of sanctuary stones that are not broken. A nation is defeated as soon as its defense level is 0. \n <Nation Score> \n Nation score is raised by killing soldiers of the hostile nation. <<<< Nation chatting >>>>> \n Nation chatting is done by typing '/%% <your message>'. All participants in  war of your nation will receive your message."
+380 : "<<< Benefits >>> \n War benefits are only given to the people of the victorious nation and participants must take part until the end of war.  \n <How to get benefits> \n You receive benefits when killing a soldier of a hostile nation which has the same or a higher level than you. \n <Note> \n If you log out during war, fame that has been accumulated until then will be deleted."
+381 : "You are not qualified to ascend to the dual class level."
+382 : "You are not qualified to increase the dual class grade."
+383 : "You already are dual Class, there is no extreme stone effect."
+
+384 : "1WarOfOtherNation     Now Vyseus and Zypern are at war in the Snow WarField. Until the end of the war, [ %d hour(s) %d minute(s) ] left, we recommend that the people of Yllse participate in the war as hired soldiers at the nation war Office..."
+385 : "1At War           We tasted lots of victories and defeats in war. Now it is the time we have to show our nation's power.  Currently war is proceeded in the Snow WarField and will last for another [ %d hour(s) %d minute(s) ]." 
+386 : "Snow WarField"
+387 : "The War starts in the Snow WarField. The Snow WarField is a novice war map only for [ level %d ~ level %d ]. To participate in the war, press the 'war moving' button in the War Office. In case of death, you can be revived by typing '/resurrection'."
+388 : "Shield stone, [ %s ] of War field ( %d,%d ) has been attacked and destroyed."
+389 : "War Field's [ %s ] gate ( %d,%d ) has been attacked and destroyed. Access in to the castle is now possible..."
+
+399 : "Click the event"
+
+400 : "You can not move because you are paralysed."
+401 : "Magic lasting time is valid condition."
+402 : "This fuction will be applied in the next update."
+
+403 : "The condition for corps registration does not match."
+404 : "You do not have enough ability to become a commander."
+405 : "Awainting registration..."
+406 : "%d corps                 %2d/%2d"
+407 : "%1d corps[position]       %2d/%2d" 
+408 : "%d corps"
+409 : "Start a Attack of Monsters" //CSD
+410 : "Finish a Attack of Monsters" //CSD        
+411 : "<%s>"
+412 : "Current skill Lvl.%d"
+413 : "CP Cost : %d"
+414 : "Not Learned."
+415 : "Next Skill Lvl.%d"
+416 : "Requires: Lvl.%d "
+417 : "(%s)"
+418 : "How To Use:"
+419 : "Lvl.%d %s"
+420 : "Class:"
+421 : "Class: %s"
+    
+422 : "This skill does not apply to your class. You cannot learn this skill."
+    
+500 : "You cannot reset your ability when wearing items, please unequip your items."
+501 : "The target's name is wrong or your whisper is too long."
+
+510 : "You cannot see <%s>'s user notice."
+511 : "Removed all blocked users from the notice block list."
+512 : "More than 20 people are added in the notice block list."
+513 : "Can see user notice."    
+514 : "Cannot see user notice."
+515 : ""
+516 : ""
+
+
+600 : ""
+601 : "Guild"
+602 : "Arena1"
+603 : "Arena2"
+604 : "Whisper"
+605 : "Local war"
+606 : "Nation war"
+607 : "Party"
+608 : "Guild notice"
+    
+609 : "Chatting mode. By pressing the 'Enter' key after chatting, the chatting window will now not disappear."
+610 : "Shortcut-key mode. If pressing the 'Enter' key after chatting, the chatting window will disappear."
+
+611 : "yes/no"
+612 : "==Public Notice=="    
+
+ 613 : "Monster nation war has begun.  From now on you can move to the battle field." //20040312 frog
+ 614 : "Monster nation war has ended." //20040312 frog
+ 615 : "Monster nation war has begun.  Monsters attack will be open for [%d] minutes. Only the nation that gained a certain amount of war points, over [%d], can participate in the Monster Nation War. To win the war, the monster's castle gate and protection stone should be destroyed. In case you become a ghost at the battle field, you can type '/revival' to revive yourself and spawn at the revival point."
+ 616 : "Since limited warfare point is not enough, you cannot participate in the Monster Nation war." //20040313 frog
+617 : "During 1 war,           monsters attack began.  It's time to show your nation's power to the Monsters by fighting them.  Currently the war is taking place at the underground battle field and lasts until the expiration of war in [%d hour(s) %d minute(s)].
+ 618 : "<Limited warfare point>\Vyseus: [%d] Zypern: [%d] Yillse: [%d]" //20040316 BBD
+ 619 : "Monster battle field" //20040315 BBD
+ 620 : "Since the protection stone placed inside of the castle is not destroyed, attack cannot be proceed." //20040316 frog
+ 621 : "Since the protection stone placed outside of castle is not destroyed, attack cannot be proceed." //20040316 frog
+ 622 : "At Monster Nation war, Yillse does not participate as hired solders." //20040316 frog
+ 623 : "Protection stone ( %d,%d ) of the monster battle field has been destroyed by attack." //20040316 frog
+ 624 : "A castle gate ( %d,%d ) of the monster battle field has been destroyed by attack." //20040316 frog
+ 625 : "Since the castle gate is not completely destroyed, attack cannot proceed." //20040317 frog
+626 : "Magic Effect Enabled." //20060519 Finito
+627 : "Magic Effect Disabled." //20060519 Finito
+628 : "Weather Effect Enabled." //20060519 Finito
+629 : "Weather Effect Disabled." //20060519 Finito
+630 : "The local war will begin in %d hour(s)." //20070706
+
+[magic]
+1 : "You are unable to cast magic when dead."
+2 : "You are able to cast magic when alive."
+3 : "Magic casting is already on. Unable to do again."
+4 : "You cannot use physical attack or magic and combat skills in this area."
+5 : "When NK value is more than 100, it's impossible to use physical attack or magic and combat skills."
+6 : "You do not have the required ability to use this magic."
+7 : "<Magery> tactic is deficient."
+8 : "<Orison> tactic is deficient."
+9 : "Not enough mana."
+10 : "Not enough divine."
+    
+11 : "You are unable to use curse magic in the present circumstance."
+12 : "You are unable to use attack magic in the present circumstance."
+13 : "You are unable to cast magic in the present circumstance."
+14 : "Casting %s."
+15 : "This magic can only be used once time during casting. Able to cast again, after casting finished."
+16 : "As your target is just logging on, your magic fails."
+17 : "Unable to use recovery magic and protection magic on NPCs like villagers and monsters."
+18 : "The target is paralysed like a stone, therefore magic is fruitless."
+19 : "As the target is too far away, it's difficult to use magic accurately."
+20 : "AS the target is not at the same height, it's difficult to use magic accurately."
+    
+21 : "Preceding protection magic is still in effect, therefore, unable to take effect simultaneously."
+22 : "Preceding protection magic is still in effect, therefore, unable to take effect simultaneously."
+23 : "Preceding Curse magic is still in effect, therefore, unable to take effect simultaneously."
+24 : "In the state of <perfect sanctuary>, any magic will not take effect."
+25 : "As the target is under the protection of defending curse magic, magic does not have any effect."
+26 : "Magic has failed. "
+27 : "Magic is being cast, therefore, your transparent state is lifted."
+28 : "Magic is applied, therefore, your transparent state is lifted."
+29 : "Non existing magic."
+30 : "%s magic is inefficient. "
+    
+31 : "Summoned a low-level monster."
+32 : "Summoned a middle-level monster."
+33 : "NOT USED"
+34 : "%s casts %s magic on %s."
+35 : "Unable to use magic in the current state."
+36 : "Unable to use magic just before or after casting magic."
+37 : "As the target evades the curse magic, magic is inefficient."
+38 : "No change"
+39 : "The Dual class which you chose has the inclination of priest magic. Because the wizard inclination that you have cannot be fused in to divine, you cannot choose this Dual class."
+40 : "The Dual class which you chose has the inclination of wizard magic. Because the priest inclination that you have cannot be fused in to mana, you cannot choose this Dual class."
+41 : "In PEACE mode, you are unable to use magic."
+42 : "You cannot use magic in the current state."
+43 : "You cannot use combat skills in the current state."
+44 : "You cannot use movement-related magic in this area."
+45 : "Not appropriate magic for the given dual symbol item."
+46 :
+47 :
+48 :
+49 :
+50 :
+    
+51 : "You received a combat skill point."
+52 : "You learned the selected combat skill."
+53 : "The selected combat skill was levelled up."
+54 : "Impossible to level up the selected combat skill."
+55 : "In PEACE mode, you are unable to use combat skills."
+56 : "Combat skill still in effect, therefore, you are unable to use another combat skill."
+57 : "You do not have enough combat skill points."
+58 : "You cannot add more combat skill points at this level."
+59 : "Impossible to choose combat skills in the current state."
+60 : "Preparing %s."
+    
+61 : "Non existing magic."
+62 : "%s is ineffective."
+63 : "%s used %s on %s."
+64 : "%s used on %s %s magic to make magic effective."
+65 : "You are unable to use combat skills in the current state."
+66 : "You are unable to use combat skills when dead."
+67 : "You are able to do combat skills when alive."
+68 : "You are unable to use combat skills in this place."
+69 : "You are able to use a combat skill again after a fixed time has passed."
+70 : "As the target is using dark armour of defending curse magic, magic is inefficient..."
+    
+71 : "As your opponent is logging on, the combat skill fails."
+72 : "As the target is too far away, it's difficult to use combat skills accurately."
+73 : "Non existing class. And so, unable to learn combat skill."
+74 : "This is a combat skill that the Warrior class cannot learn."
+75 : "This is a combat skill that the Archer class cannot learn."
+76 : "This is a combat skill that the Thief class cannot learn."
+77 : "This is a combat skill that the Wizard class cannot learn."
+78 : "This is a combat skill that the Priest class cannot learn."
+79 : "Weapon tactic that cannot use the combat skill."
+80 : "This is a combat skill that cannot be used with the Gauntlets tactic."
+81 : "This is a combat skill that cannot be used with the One-hand sword tactic."
+82 : "This is a combat skill that cannot be used with the Bow tactic. "
+83 : "This is a combat skill that cannot be used with the Fencing tactic."
+84 : "This is a combat skill that cannot be used with the Mace tactic."
+85 : "This is a combat skill that cannot be used with the Javelin tactic."
+86 : "This is a combat skill that cannot be used with the Knife tactic."
+87 : "This is a combat skill that cannot be used with the Two-hand Sword tactic. "
+88 : "This is a combat skill that cannot be used with the Double Mace tactic."
+89 : "Combat skill casting is impossible when choosing a combat skill."
+90 : "You selected another type of combat skill which is different from the passive type combat skill which is currently in effect. Therefore, the passive type combat skill does no longer have effect."
+
+91 : "In status of <stonization> by oneself, impossible to perform combat skills or magic."   
+92 : ""
+93 : ""
+94 : ""
+95 : ""
+96 : ""
+97 : ""
+98 : ""
+99 : ""
+100 : ""
+101 : "Game participants cannot observe the game."
+102 : "This arena cannot be used."
+103 : "You cannot join because a game is in progress in the arena."
+104 : "You are already in the waiting room."
+105 : "You belong to a team already."
+106 : "You cannot participate in the game, you're currently observing."
+107 : "The team does not exist."
+108 : "You cannot observe the game because there are no participants."
+109 : "You cannot observe the game because you do not have enough money for the admission fee."
+110 : "You cannot participate in the gamble because the maximum number of gamblers has been exceeded."
+111 : "You can bet from 5.000.000 to 1.000.000.000 Crits."
+112 : "You do not have enough balance."
+113 : "You cannot gamble because there are no participants."
+114 : "All selections are cancelled and you are exiting the Arena."
+115 : "Observation has been cancelled."
+116 : "Gambling has been cancelled."
+117 : "Only leaders can start Arena games."
+118 : "The team you bet on has won. And %d will be deposited in your account."
+119 : "You cannot participate in the game because the maximum number of participants has been exceeded."
+120 : "Your account limit has been reached. %d Crits will go to your inventory instead."
+121 : "%d minute(s) remaining."
+122 : "You can only start arena games with the same number of members in each team."
+
+402 : "The function will be applied at the next update."
+
+
+    
+[skill]
+    
+1 : "Try again after you learned the item you want to make."
+2 : "Material is deficient or not suitable."
+3 : "Maybe I should wear some kind of tool..."
+4 : "As a working table isn't suitable, it's not easy to exercise this skill."
+5 : "So tired as to take some rest."
+6 : "Try again after you learned the item you want to make."
+8 : "Try again after you learned the item you want to make."
+9 : "You are not in a suitable place to perform this skill."
+10 : "Try again after you learned the item you want to make."
+
+12 : "Insufficient bank balance..."
+13 : "Not enough space in inventory..."
+    
+20 : "Try again with correct ones."
+21 : "You can't hear the ghosts because you cannot see them."
+22 : "You can now see ghosts. This will only continue for %d seconds."
+23 : "You can now see ghosts. This will only continue for %d seconds."
+24 : "Your prayers have been answered and '%s' is resurrected."
+25 : "You cannot see ghosts anymore."
+26 : "You cannot hear ghosts anymore."
+    
+
+    
+31 : "Using the skill '%s'."
+32 : "You cannot use this skill yet."
+33 : ""
+34 : "It seems all is ready for harvesting."
+35 : "Getting prepared to use a class skill."
+36 : "Getting prepared to use a job skill."
+    
+40 : "This working table isn't suitable to apply your skills on."
+41 : "So exhausted. Some rest might be good."
+48 : "You need a shovel for cultivation."
+49 : "You need a sickle to harvest."
+
+50 : "You need a pick to mine."
+51 : "It seems I need a tool of some sort..."
+52 : "You need a fishing rod to fish."
+53 : "You need a lumber axe to cut down trees."
+54 : "You need a saw to cut logs."
+55 : "You need a butchering knife to cut fresh meat."
+56 : "You need a hoe to dig out herbs."
+57 : "You need a pestle and a mortar to pulverize herbs."
+58 : "You need to equip yourself with a scissor."
+59 : "The ingredients have been ruined because you do not have a claw-hammer."
+    
+60 : "The ingredients aren't any good unless you have a claw-hammer."
+61 : "The ingredients aren't any good unless you have a cooker."
+62 : "You need a cutting knife."
+63 : "You need a needle."
+64 : "The ingredients aren't any good unless you have a refining knife."
+65 : "It seems I need a tool of some sort..."
+66 : "It seems I need a tool of some sort..."
+67 : "It seems I need a tool of some sort..."
+68 : "You need a shepherd's stick for taming."
+69 : "If you had a fishing net you could catch a lot more fish."
+70 : "You need flint and stone."
+
+71 : "You need flint and stone."
+72 : "You need flint and stone."
+73 : "It seems I need a tool of some sort..."
+74 : "It seems I need a tool of some sort..."
+75 : "It seems I need a tool of some sort..."
+76 : "It seems I need a tool of some sort..."
+77 : "It seems I need a tool of some sort..."
+78 : "It seems I need a tool of some sort..."
+79 : "It seems I need a tool of some sort…perhaps a bucket of some sort."
+    
+80 : "It seems I need a tool of some sort.…Perhaps something that is suitable for reuse."
+81 : "It seems I need a tool of some sort.…Perhaps something for repairs."
+82 : "You cannot gain any at its current state."
+83 : "This skill can only be used on animals with fur. Like a lamb."
+84 : "Click at any animal you wish to gain meat and skin from."
+85 : "You cannot use this skill on dead animals."
+86 : "There is no wool left on this sheep. Try another."
+
+100 : "Cannot obtain wool from this target."
+101 : "There isn't anything more for you to gain."
+102 : "This area does not have mineral deposits."
+103 : "This area does not have any herbs grown."
+104 : "This tree was already cut down."
+105 : "Your diligent efforts are starting to show slowly."
+106 : "Cutting out the weeds is important. A little longer and all should be ready to harvest."
+107 : "The ground is infertile or sees were planted excessively in one spot. Cultivating another place might be better."
+108 : "Cultivation has made the ground fertile. It's the right time to start seeding now."
+109 : "There doesn't seem to be any fish left here, how about another place?"
+    
+110 : "You are not skilled enough to tame this creature."
+111 : "This NPC cannot be tamed."
+112 : "This NPC cannot be tamed."
+
+
+139 : "Cultivation is complete. The ground is now ready for seeding."
+
+140 : "Let's start finding some traps."
+141 : "You have disarmed the trap."
+142 : "You have set up a trap."
+143 : "Let's find some bombs."
+144 : "You have installed a bomb."
+
+145 : "You have disabled the bomb."
+146 : "You have stolen something but you might have been noticed."
+147 : "You have stolen something."
+148 : "You have cultivated about %d%%. Let's keep up the good work."
+149 : "You have planted on the barren."
+    
+150 : "You have planted the seed. Take well care of it."
+151 : "Grow fast and well."
+152 : "Your cultivating skill allowed %d of growth."
+153 : "You cannot use the cultivating skill."
+154 : "Your farming passion has lead to a successful harvest."
+155 : "This land has possibilities of minerals."
+156 : "There may be some mineral considering as a(n) '%s' is here."
+157 : "You have extracted a mineral. You seem skilled with the pick."
+158 : "You have caught a fresh fish. Luck seems to be with you today."
+159 : "You have caught a lot of fish. It seems you are driven."
+    
+160 : "You have succeeded in cutting a tree."
+161 : "You have lumbered the %s in to %s."
+162 : "It seems cows leave meat and skin when they die."
+163 : "I'm sure that there is a(n) '%s' here..."
+164 : "Eureka! You have found a %s herb!"
+
+165 : "You have sheared off some beautiful wool."
+166 : "You have succeeded in dyeing."
+167 : "You have gained oil, which is an ingredient for candles."
+168 : "The monsters have quieted down."
+169 : "You have paralyzed the target."
+
+170 : "You have searched throughout the belongings."
+171 : "You are walking silently."
+172 : "You are blending in to the background like a chameleon."
+173 : "You have disguised as a tree."
+174 : "You are hiding the item."
+    
+175 : "You are lighting a fire. "
+176 : "Whoa.. there's a good boy..."
+177 : "Whoa~~ Whoa~~"
+178 : "I'll give you something tasty..."
+179 : "Whoa~~ Whoa~~"
+
+180 : "You have succeeded in taming."
+181 : "You have tamed about %d percent."
+182 : "I can't find anything, must be hiding or something."
+183 : "It seems something is there..."
+184 : "I don't have the slightest clue..."
+
+185 : "Bounded seeds, find freedom in growth..."
+186 : "I can't find anything, must be hiding or something."
+187 : "It seems something is there..."
+188 : "I don't have the slightest clue..."
+189 : "I have failed in using the skill..."
+
+190 : "Uh, this isn't going well..."
+191 : "You have gained %s. "
+192 : "%s tried to steal your belongings."
+193 : "It seems %s has stolen your belongings."
+194 : "Switching to the Peace mode to use the skill."
+    
+195 : "It seems too far away to reach."
+196 : "Click the item you wish to use the skill on."
+197 : "Click on the character you wish to use the skill."
+198 : "This can only be used on yourself."
+199 : "This skill requires a 'trap'."
+
+200 : "This skill requires a 'bomb'."
+201 : "You have attempted to use the skill on yourself, but your failure only brings you embarrassment."
+202 : "The steal skill can only be used to monsters."
+203 : "You cannot use the '%s' skill because there is no fish here."
+204 : "%s's wisdom is %d. "
+
+205 : "%s's wisdom must be around %d..."
+206 : "You learn that the wisdom is %d."
+207 : "Wisdom must be around %d..."
+208 : "%s's intelligence is %d. "
+209 : "%s's intelligence must be around %d..."
+
+
+210 : "You learn that the intelligence is %d."
+211 : "Intelligence must be around %d..."
+212 : "The event of death is unclear."
+213 : "It's hard to tell how this person died."
+214 : "%s was killed by %s."
+
+215 : "%s must have killed this person."
+216 : "%s has killed this person."
+217 : "%s must have killed this person."
+    
+218 : "Go to the garden to start farming."
+219 : "Find a suitable tree to cut."
+220 : "Go to the herb garden to find some herbs."
+221 : "Go to the fishing area to catch some fish."
+222 : "Go to the rocky area to find some minerals."
+223 : "You failed to gain the rare item."
+224 : "You try to make %s, out of %d piece(s) you obtain %d piece(s)."
+
+250 : "You do not have the required ingredients to make this item or do not have enough."
+251 : "You do not have enough rare success rate. Raise up the rare success rate by making more or other items."
+
+252 : "Later, the number of times you can make a rare item in one day will be restricted."
+253 : "(Lvl 5-30 :1) (Lvl 31~50 :2) (Lvl 51~70 :3) (Lvl 71~80 :4) (Lvl 81~90 :5) (Lvl 91~99 :6) (Lvl 100 :8)"
+254 : "This is an item where the rare property does not apply."
+255 : "Rare success rate[%d .%d]+bonus[%d. %d]=[%d%%] %d/%d(Now/Max)"
+
+256 : "Because you made too many items, you can make items again after [%d] seconds."
+
+257 : "You cannot make anymore rare items today. After midnight, you can make more."
+258 : "You have used today's rare making, among the opportunity of using it %d times, exactly %d times."
+259 : "You failed item making, but rare success rate and trial number of times is supported."
+260 : "You failed item making."
+
+261 : "You failed in making the rare item but today's trial times of making rare items increased."
+262 : "Because you made a rare item, today's rare items making trial number of times increased."
+
+265 : "Rare success rate[%d.%d]+bonus[%d.%d]=[%d%%] FULL"
+
+266 : "The item that is divided must be in between [%d~%d]pieces"
+
+301 : "Using the 'find ghosts' skill."
+302 : "Using the 'Talk With' skill."
+303 : "Using the 'Poisoning' skill."
+304 : "Using the 'Detect Poison' skill."
+305 : "Using the 'Detect Trap' skill."
+
+306 : "Using the 'Disable Trap' skill."
+307 : "Using the 'Entrapment' skill."
+308 : "Using the 'Magic Scrolling' skill."
+309 : "Using the 'Ability Scrolling' skill."
+310 : "Using the 'Emergency Alram' skill."
+
+311 : "Applying medical first-aid."
+312 : "Using the 'Fast Foot' skill."
+313 : "Using the 'Secrethear' skill."
+314 : "Using the 'Wallclimbing' skill."
+315 : "Using the 'Intuition' skill."
+
+316 : "Using the 'Detect Bomb' skill."
+317 : "Using the 'Bomb in Box' skill."
+318 : "Using the 'Remove Bomb' skill."
+319 : "Attempting to Steal."
+320 : "Using the 'Lockpicking' skill."
+
+321 : "Using a skill to cultivate the ground."
+322 : "Using a skill to plant seeds in the ground."
+323 : "Using a skill to cultivate the ground."
+324 : "Using a skill to harvest crop."
+325 : "Using a skill to detect minerals."
+
+326 : "Using a skill to extract minerals."
+327 : "Using a skill to make ingot by putting minerals in to a smelting furnace."
+328 : "Using a skill to catch fish with a fishing rod."
+329 : "Using the skill Baitmaking."
+330 : "Using a skill to catch fish with a net."
+
+331 : "Using the 'Sailing' skill."
+332 : "Using a skill to cut trees."
+333 : "Using a skill to lumber logs."
+334 : "Using a skill to cut meat and skin."
+335 : "using a skill to detect herbs."
+
+336 : "Using a skill to dig herbs."
+337 : "Using a skill to pulverize herbs with a pestle and mortar."
+338 : "Using the 'Herbing' skill."
+339 : "Using the 'Milking' skill."
+340 : "Using the 'Midwifery' skill."	 
+
+341 : "Using a skill to shear off wool."	
+342 : "Using the 'Manufacturing 1' skill"	
+343 : "Using the 'Manufacturing 2' skill."	
+344 : "Using a skill to make delicious food."	
+345 : "Using the 'Tailor' skill."	
+
+346 : "Using the 'Dyeing' skill."	
+347 : "Using the 'Tailoring' skill"	
+348 : "Using a skill to make bows."	
+349 : "Using the 'Fletching' skill"	
+350 : "Using a skill to make potions."	
+
+351 : "Using a skill to extract metals."	
+352 : "Using a skill to make glass bottles."	
+353 : "Using a skill to make candles."
+354 : "Using the 'Oiling' skill."
+355 : "Using the 'Repair' skill."
+
+356 : "Using the 'Reutilizing' skill."
+357 : "Using the 'Playing' skill."
+358 : "Using the 'Peacemaking' skill."
+359 : "Using the 'Paralysis' skill."
+360 : "Using the 'Hallucination' skill."
+
+361 : "Using the 'Provocation' skill."
+362 : "Using the 'Enticement' skill."
+363 : "Using the 'Noise' skill."
+364 : "Using the 'Track' skill."
+365 : "Using the 'Snoop' skill"
+
+366 : "Using the 'Search' skill."
+367 : "Using the 'Silentmove' skill."
+368 : "Using the 'Disguise' skill."
+369 : "Using the 'Chameleon' skill."
+370 : "Using the 'Hide' skill."
+
+371 : "Using the 'Object Hiding' skill."
+372 : "Using the 'Hide' skill."
+373 : "Attempting to camp."
+374 : "Using the 'Fire Making' skill."
+375 : "Using the 'Taming' skill."
+
+376 : "Using the 'Communicate with' skill."
+377 : "Using the 'Communicate with' skill."
+378 : "Using the 'Animal lore' skill."
+379 : "Using the 'Arms lore' skill."
+380 : "Using the 'Evaluate Intelligence' skill."
+
+381 : "Using the 'Evaluate Wisdom' skill."
+382 : "Using the 'Anatomy Judgment' skill."
+383 : "Using the 'Item Identification' skill."
+384 : "Using the 'Taste Identification' skill."
+385 : "Using the 'Appraisal' skill."
+
+386 : "Using the 'Healing' skill."
+387 : "Using the 'Tactics' skill."
+388 : "Using the 'Crapple' skill."
+389 : "Using the 'Swordmanship' skill."
+390 : "Using the 'Archery' skill."
+
+391 : "Using the 'Fencing' skill."
+392 : "Using the 'Mace Fighting' skill."
+393 : "Using the 'Pierce' skill."
+394 : "Using the 'Whirl' skill."
+395 : "Using the 'Hurl' skill."
+
+396 : "Using the 'Parrying' skill"
+397 : "Using the 'Double Swordmanship' skill."
+398 : "Using the 'Double Macefighting' skill."
+399 : "Using the 'Magery' skill."
+400 : "Using the 'Orison' skill."
+
+401 : "Click on the crop to harvest."
+402 : "Click on the log to lumber it."
+403 : "Click on the lamb to shear it to obtain wool."
+404 : "Click on the animal that might have the most meat and skin."
+405 : "Cultivation is complete."
+
+500 : "You learned a new skill."
+501 : "You cannot make more than 10 pieces."
+502 : "You do not have the required ingredients to make this item or do not have enough."
+503 : "Second occupation GM %s makes %s %s %d Grade."
+504 : "You must have the target item."
+505 : "Please choose the rare group."
+
+510 : "The upgraded item is in your inventory."
+511 : "Only rare items can be upgraded."
+512 : "You cannot upgrade this item to a higher grade."
+513 : "You do not know this item. Please learn the item and try again."
+514 : "The target item does not exist."
+515 : "You cannot raise the grade of this item with different kinds of rare effects items."
+516 : "This is an item that is not rare."
+517 : "This is an item which rare effect is different than the target item."
+518 : "This item has already been chosen."
+519 : "This is not a rare item."
+    
+520 : "Success rate[%3d.%1d] + [%3d]"
+521 : "A rare effect on this item is impossible."
+522 : "Your skill level is too low to succeed."
+523 : "Trap for thief put in action."
+524 : "The rare item can go in to your inventory."
+525 : "You cannot steal here."
+526 : "The rare item can go in to your inventory."
+528 : "         %d"
+529 : "Skill ability degree %d"
+530 : "Put in items from your inventory."
+    
+600 : "Jobs possible to choose."
+    
+601 : "Pupil"
+602 : "Junior"
+603 : "Senior"
+604 : "Major"
+605 : "Expert"
+606 : "Master"
+607 : "GM"
+
+610 : "Setting secret chat to be visual."
+611 : "Setting secret chat to invisible."
+    
+620 : "You received a special item point by 1000."
+    
+621 : "Normal chat now visible."
+622 : "Normal chat now invisible."
+623 : "Guild chat now visible."
+624 : "Guild chat now invisible."
+    
+625 : "Normal chatting"
+626 : "Guild chatting"
+627 : "Whisper Input"
+628 : "Party chatting"
+700 : "Special material point1 : %d"
+701 : "Special material point2 : %d"
+
+702 : "Party chat now visible."
+703 : "Party chat now invisible."
+
+710 : "30 days have not yet passed since the last redistribution of your ability."
+
+711 : "Normal Item"
+712 : "Lair Item"
+713 : "High Item"
+714 : "Function Item"
+715 : "Legend Item"
+
+720 : "etc place"
+721 : "Inventory"
+722 : "Right Hand"
+723 : "Left Hand"
+724 : "Head"
+725 : "Body"
+726 : "Neck"
+727 : "Shoes"
+728 : "Unique"
+729 : "Belt"
+730 : "Both hands"
+
+740 : "No demand of tactic"
+
+750 : "Please wait while items that the merchants sell are being retrieved from the server."
+760 : "Request has been ignored in spite of receiving the request."
+770 : "You are not qualified to become a merchant or grand master in a certain skill."
+780 : "Legend"
+
+790 : "[Lair Basic Equip]"
+791 : "[High Basic Equip]"
+792 : "[Legend Basic Equip]"
+793 : "[Legend Bonus Equip]"
+
+800 : "[Legend Set form]"
+801 : "Weapon"
+802 : "Shield"
+803 : "Helmet"
+804 : "Armor"
+805 : "Necklace"
+806 : "Shoes"
+807 : "Unique"
+
+880 : "Only a single lair is possible."
+881 : "You can make a multi rare item of maximum grade 10."
+890 : "You can't unify same attribution."
+
+900 : "An item is destroyed when the endurance has reaced 0."
+901 : "You have succeeded in making a Multi-Lair item."    
+
+910 : "The destination is only allowed to players whose level is between %d~%d."
+911 : "The destination is only allowed to players whose level is equal to or above %d."
+912 : "The destination is only allowed to players whose level is equal to or below %d."
+
+920 : "Please check your trade permission status before trading items. The trade permission command is '/Trade ON'."
+921 : "The other side is on trade-deny status."
+
+950 : "A special item has appeared."
+
+960 : "General mail icon: indicating a mail type that anyone can use."
+961 : "Guild mail icon: indicating a mail type that only guild members can use."
+962 : "Operator mail icon: indicating a mail type that only operators can use."
+963 : "General mail reply: a reply from a general mail recipient."
+964 : "Operator mail reply: a reply to an operator's mail."
+990 : "You can't use the mailing system."
+
+[notice]
+1 : "<<<<<<<<<<< %s has won the duel with %s. >>>>>>>>>>>>"
+2 : "<<<<<<<<<<< %s has lost the duel with %s. >>>>>>>>>>>>"
+3 : "<<<<<<<<<<< Dueling time has ran out. The duel with %s ends in a tie. >>>>>>>>>>>>"
+4 : "<<<<<<<<<<< %s has beaten his opponent in a duel. >>>>>>>>>>>>"
+5 : "You have been moved by the GM."
+6 : "**This is impossible at this distance**"
+7 : "An irregular fire exists. Please update with the latest version before logging in.( error code : 0x48c )"
+8 : "Sphere :%2d inherent number :%3d Magic level :%2d Spell power :%3d Total magic :%3d Basic magical ability :%3d cast_T :%5d cast_C :%5d Duration T :%5d Type :%1d Effective R :%3d Mana :%3d Wp usage :%3d Required Int. :%3d Required Wis. :%3d Appoint/Click :%1d Single/Multiple :%1d Non-offensive/Offensive :%1d Cost :%4d Exp. :%3d Attack rate :%3d Name :%s Per Class :%6d\n"
+9 : "%s has cast the %s spell."
+10 : "%s has cast on %s the spell of %s."
+
+11 : "%s used the %s magic."
+12 : "The %s magic failed and is inefficient."
+13 : "You cannot summon anymore monsters. Raise your tactic to summon more monsters."
+14 : "You do not have enough mana for that."
+15 : "Your ability is not high enough for that."
+16 : "Your ability is not high enough for that."
+17 : "Spell effect :%d Name :%10s Level :%2d Exp :%5d Magic Type :%1d Damage :%5d Change_MP :%4d %5s Target status :%1d HP :%3d MANA :%3d Status :%d STR :%d DEX :%d CON :%d WIS :%d INT_ :%d CHA :%d MOVP :%d ENDU :%d MOR :%d WSPS :%d LUCK :%d\n"
+18 : "Attack effect :%d Name :%10s Level :%2d Exp :%5d Attack Type :%1d Damage :%5d Change_MP :%4d %5s Target status :%1d HP :%3d MANA :%3d Status :%d STR :%d DEX :%d CON :%d WIS :%d INT_ :%d CHA :%d MOVP :%d ENDU :%d MOR :%d WSPS :%d LUCK :%d\n"
+19 : "Auto-distribution has been disabled."
+20 : "Auto-distribution has been activated. It will automatically distribute starting from the next level-up."
+
+21 : "You have asked for a duel successfully."
+22 : "The duel proposal has been refused. What a coward!"
+23 : "The person with that name does not exist."
+24 : "You cannot ask for a duel to that person at your level."
+25 : "Your target is not able to duel right now."
+26 : "The person with that name is not near enough."
+27 : "You are too far away from this person."
+28 : "None is allowed to duel at the beginner's area."
+29 : "Someone else has already asked for a duel with your target."
+30 : "You have already asked for a duel with another person."
+
+31 : "You cannot ask for a duel while you are dead."
+32 : "You are already duelling with another person."
+33 : "You cannot duel with yourself."
+34 : "There is no one by that name."
+35 : "You cannot duel with the dead."
+36 : "Monsters do not honor duels."
+37 : "The other's level is too high for you to propose a duel."
+38 : "You are too far away from this person."
+39 : "%s has proposed a duel."
+40 : "Duel proposal has been cancelled."
+
+41 : "[%s]Team has %d person(s) surviving."
+42 : "You have joined the [%s]Team."
+43 : "The [%s]Team has is full right now."
+44 : "'%s' has joined the [%s]Team."
+45 : "'%s' has withdrawn from the [%s]Team."
+46 : "==== The battle has begun. ===="
+47 : "==== The battle has ended. ===="
+48 : "Your greeting has been set."
+49 : "To '%s'"
+50 : "The battle has been cancelled."
+
+51 : "You cannot send messages to a person of another nationality."
+52 : "You do not have a nationality."
+53 : "This map contains a total of %d characters."
+54 : "This server contains a total of %d players."
+55 : "Command Usage : Stop 'Tamed'"
+56 : "Command Usage : Attack 'Tamed' 'Target'"
+57 : "Command Usage : Follow 'Tamed'"
+58 : "Command Usage : Your name is 'original name' 'new name'"
+59 : "Command Usage : Attack 'Tamed' 'Target'"
+60 : "Command Usage : Your name is 'original name' 'new name'"
+
+61 : "You cannot use the vote option because you do not have a nationality."
+62 : "It is not voting period."
+63 : "You have already cast a vote. Only one vote per account is allowed."
+64 : "You cannot vote."
+65 : "You cannot receive election info because you do not have a nationality."
+66 : "This option is only available to the King."
+67 : "You are sending too much information."
+68 : "Random Course"
+69 : "----------------------- Congratulations -----------------------"
+70 : "You have been elected as King. Long live the King!"
+
+71 : "----------------------- ---- ------------------------"
+72 : "You have been relieved of the King title due to your ruling period or the loss of support."
+73 : "---------------------------------------------------"
+74 : "You have failed to change the name."
+75 : "There is no tamed creature by that name."
+76 : "There is no target of the name."
+77 : "Following."
+78 : "Stopping."
+79 : "Attacking."
+80 : "You have changed the name."
+
+81 : "This option is only available to the Guild Master."
+82 : "Guild withdrawal must be done when the person is nearby."
+83 : "You cannot withdraw yourself from a Guild."
+84 : "That person is not of the same Guild."
+85 : "You have been withdrawn from the Guild."
+86 : "You have withdrawn '%s' from the Guild."
+87 : "'%s' has withdrawn from the [%s] Guild."
+88 : "Command must be in the '/Guild Admission <character's name>' form."
+89 : "That command is only available to the Guild Master."
+90 : "Guild admission command can only be used when the target is nearby."
+91 : "Unable to join yourself."
+92 : "That person is already in another Guild."
+93 : "Guild admission is only allowed to persons of the same nationality."
+94 : "%s has been admitted to the [%s] Guild."
+95 : "You cannot admit %s. Guild admission can only be done once per account."
+96 : "The [%s]'s Guild Master, '%s' has asked for your admission. Will you accept? Type 'Yes' or 'No'."
+97 : "The command must be in the '/Guild Shout' form."
+98 : "That command is only available to the Guild Master."
+99 : "The command must be used in the form of '/Guild Ranking <number> (where number is between 1 and 5) <character name>'. Ranking 1 is Guild Master and 5 is Normal Guild member."
+100 : "The Ranking has exceeded the allowed number."
+
+101 : "Opposite nationality is marked in red."
+102 : "The target character must be nearby."
+103 : "The target character must be nearby."
+104 : "That person is not of the same Guild."
+105 : "Guild Master cannot change the ranking of him/her self."
+106 : "That person is already of that ranking."
+107 : "The 'Ranking 1' command is used when changing the Guild Master."
+108 : "The command must be used in the form of '/Guild Ranking's <number> (where number is between 1 and 5) <character name>'."
+109 : "Congratulations your Guild Ranking within the Guild has been raised to '%s'."
+110 : "Your Guild Ranking within the Guild has been changed to '%s'."
+
+111 : "'%s' character's ranking within the Guild has been changed."
+112 : "You have offered the person to join your guild."
+113 : "%s has been registered for [%s skill Grand Master] %d-th . He/She is the %d-th GM. Congratulations!"
+114 : "The nation's name is incorrect. The command must be in '/Armistice <nation name>' form."
+115 : "You have proposed armistice. The armistice will not pass if the opponent King refuses or is not logged on."
+116 : "That prayer can only be used by Guild Masters."
+117 : "This option is only available in places with a map."
+118 : "%s nation's King has proposed armistice. Will you accept? [Yes/No]"
+119 : "You have agreed to an armistice with the %s nation... There will be no war today."
+120 : "%s Kingdoms' %s has contributed %d crit to the Kingdom contributed funds. The total is now %.0f crit."
+
+121 : "A total contribution of 3 million Crit or more will be rewarded with the Heartbeat item(con +3,Increased resistance)."
+122 : "%s %s donates %d Cell, total amount becomes %.0f Cell."
+123 : "A total contribution of 300,000 Cell or more will be rewarded with the Heartbeat item(con +3,Increased resistance)."
+124 : "%ld Crit has been received."
+125 : "%ld cell has been received. "
+126 : "You have a total number of %d chocolates."
+127 : "Hey…seems you have the most…I can't believe you have %d.."
+128 : "The person having the name of %s has the highest score. The score is %d.?"
+129 : "You can't get any info without money. Why don't you come back next time?"
+130 : 
+
+131 : "==========[Official Announcement]=========="
+132 : "==========[Quest Help]=========="
+133 : "The name of the map seems to be wrong. Maybe it doesn't exist.(%s)"
+134 : "Duel"
+135 : ""
+136 : ""
+137 : "If there is a Priest who has lead you spiritually, please enter the name of the priest. Click 'cancel' if none."
+138 : "For a small fee of 5 Crit... I'll tell you who has the most chocolates."
+139 : "For a small fee of 5 Crit... I'll tell you who has the most chocolates."
+140 : "Wait a minute…Let me see now, where... ah... here..."
+
+141 : "Your ability is not high enough."
+142 : "You do not have enough money."
+143 : "You have already learned these skills."
+144 : "You cannot learn the 1st Class skills yet."
+145 : "You have already learned the skills from here. Check for other skills by pressing 'OTHER'."
+146 : "Needed Ability"
+147 : "Taming above 40 is required."
+148 : "Level 35 and above is required."
+149 : "Farming or Fishing above 50 is required."
+150 : "Mining above 50 required."
+
+151 : "Fishing above 50 required."
+152 : "Cut down above 50 required."
+153 : "Butchering above 50 required."
+154 : "Herb-digging above 50 required."
+155 : "You cannot learn 1st class skills and a few other skills yet."
+156 : "You are now ignoring all whispers."
+157 : "You are now receiving all whispers."
+158 : "That item has already been learned."
+159 : "You do not have enough money."
+160 : "You do not meet the requirements to learn that skill."
+
+161 : "That is not a option that is supported."
+162 : "There isn't anymore room in your inventory."
+163 : "You have acquired the %s item for %ld Crit."
+164 : "You have acquired the %s item for %ld Cell.."
+165 : "You do not have enough money."
+166 : "That item doesn't exist."
+167 : "You have sold the %s item for %ld Crit."
+168 : "You have sold the %s item for %ld Cell."
+169 : "This item cannot be repaired any further."
+170 : "Your level is not high enough."
+
+171 : "Never lose it."
+172 : "You are not registered to this temple."
+173 : "You do not own a house."
+174 : "Unable to memorize anymore."
+175 : "Completed in memorizing '%s'. You may now use it."
+176 : "Welcome. You are registered to this temple."
+177 : "You have cancelled your registration to this church."
+178 : "The receiver's name does not exist or the nationality may be different."
+179 : "You cannot register your self."
+180 : "The person you are trying to register does not exist."
+181 : "Bounty is more than %d Crit."
+182 : "Bounty is more than %d Cell."
+183 : "That has been registered by you."
+184 : "You cannot accept the bounty of yourself."
+185 : "That name is already registered."
+186 : "You have registered the name on to the list."
+187 : "Only 1st class skills can be registered as Grand Master."
+188 : "You do not have the required item to register as a Grand Master."
+189 : "You do not have the required money to register as a Grand Master."
+190 : "You do not have a skill to register as a Grand Master."
+
+191 : "You have to donate more than 1,000 Crit."
+192 : "You have to donate more than 1,000 Crit."
+193 : "Are you sure about the donation?"
+194 : "You can't get any info without money. Is this your first adventure?"
+195 : "Wait a minute. Let me see now. Where.is…? ah... here..."
+196 : "Your inventory is full."
+197 : "You have given %s to %s."
+198 : "<<<<<<<<<<< Duel time has passed %d second(s). >>>>>>>>>>>>"
+199 : "<<<<<<<<<<< Duel time has passed %d minute(s). >>>>>>>>>>>>"
+200 : "<<<<<<<<<<< Duel time has passed %d minute(s) and %d second(s). >>>>>>>>>>>>"
+201 : "We are collecting donations to help the unfortunate and the needy. \n The donations which you have given will be converted into real money to help the needy and unfortunate ones."
+202 : "In efforts to stop the drop of currency value, due to inflation, there will be a currency reform in 1"":1 conversion ratio from Cell to Crit. \n Ex.) : 1 Cell = 1 Crit"
+203 : "Currency Conversion"
+204 : "Are you sure you want to log out?"
+205 : "The are too many log-in attempts to the server at this time. Please try again."
+    
+206 : "You have acquired the %s item from the mall for %ld Raja Emblems."
+207 : ""
+208 : ""
+209 : ""
+210 : ""
+    
+211 : "'/pk on' '/pk off' were added."
+212 : "Able to see information with excerpting by the itemized list. "
+    
+213 : "Currently trading is allowed."
+214 : "Currently trading is not allowed."
+215 : "You can change the trading status."
+
+221 : "Abyss Scenario"    
+222 : "Undead Scenario"
+223 : "The Great Maze Scenario"
+240 : "%s is open during %2d:%2d ~ %2d:%2d on %s."
+
+
+250 : "Sunday"
+251 : "Monday"
+252 : "Tuesday"
+253 : "Wednesday"
+254 : "Thursday"
+255 : "Friday"
+256 : "Saturday"
+
+280 : "You cannot receive your winnings if you leave the Arena Map or log out. Please make sure you have sufficient inventory space."
+281 : "The admission fee is 5000 Crit. Please select a team to observe." 
+
+290 : "Would you like to send the same message to others?"
+291 : "Would you like to delete your mail?"
+
+292 : "This person is blocking duel requests."
+293 : "Blocking duel Requests."
+294 : "Allowing duel Requests."
+
+[item]
+    
+1 : "The equipped amount of '%s' is %d."
+2 : "The '%s' item needs to be repaired."
+3 : "The '%s' item has been broken."
+4 : "You cannot move in to another area."
+5 : "The power of the sanctuary stones has weakened. It is now possible for the enemy to invade."
+6 : "The power of the sanctuary stones is strong. Invasion is not possible."
+7 : "The armistice period is in effect, no invasion is allowed during this period."
+8 : "The great King of Vyseus has announced a war against Zypern."
+9 : "Proud warriors of Zypern, rise! War is upon us."
+10 : ""
+
+11 : "In order to achieve victory, you must destroy all the sanctuary stones within %d hour(s) %d minute(s) %d second(s)."
+12 : "In order to achieve victory, you must destroy all the sanctuary stones within %d minute(s) %d second(s)."
+13 : "In order to achieve victory, you must destroy all the sanctuary stones within %d second(s)."
+14 : "The mana of the sanctuary stones is strong, it would be too difficult to fight."
+15 : "You have lost this battle."
+16 : "You have won this battle."
+17 : "There was no fruitful results in this battle."
+18 : "The sanctuary stone in %s( %d, %d ) has been destroyed."
+19 : "The sanctuary stone in %s( %d, %d ) is being attacked."
+20 : "Armistice cannot be proposed during battle."
+
+21 : "That is already established between nations."
+22 : "The armistice treaty has been achieved successfully. The power of the sanctuary stones will be strengthened today."
+23 : "You cannot memorize right now."
+24 : "There is a unread mail."
+25 : "Your spirituality has increased."
+26 : "Your spirituality has decreased."
+27 : "Registration was completed successfully."
+28 : "Registration was not complete."
+29 : "Someone has already collected the reward."
+30 : "You have been killed by a bounty hunter."
+
+31 : "You have been registered as a candidate."
+32 : "You cannot vote."
+33 : "You have cast your vote."
+34 : "The server is preparing. Please try again."
+35 : "He has refused admission in to the Guild."
+36 : "Armistice proposal has been refused."
+37 : "There is a player killer here! All guards move out and search the area."
+38 : "How dare you walk the streets with your bloodstained hands."
+39 : "A dog of Vyseus!!!"
+40 : "A dog of Zypern!!!"
+
+41 : "Hometowns are comfortable and sweet. It's the best place for adventurers after returning from a long trip."
+42 : "Hmm. You sure you're from Helternt? I've never seen you around in these parts."
+43 : "We guards have taken the oath to protect the Nation and its people. Have no fear."
+44 : "Who or what do you fight for? I hope you're not one of those murdering PK types."
+45 : "We will protect you and the ones you love as our own."
+46 : "Attacking me will not aid this nation from protecting you and your family!"
+47 : "Guards are your friends as well as comrades."
+48 : "I feel the wind. The wind carries the scent of war. Hurry to your family and protect them."
+49 : "This is not the time nor place for such a crime!! I will not stand much more of this any longer, so I suggest you desist immediately!!"
+50 : ""
+    
+51 : "Sometimes I see some odd people wondering around, explaining things as if they know everything there is in life..."
+52 : "The Cosmos that flutters in the wind~"
+53 : "We are the Guards, heroes who survived the turbulent times. Do not interrupt our work."
+54 : "What? You call me a fatso? Why, this isn't fat!!! It's burdening muscles that I've achieved."
+55 : "Beginners always waste their strength. Are you one of them?"
+56 : "It is war. I will not hesitate to suppress any fools in case of an emergency! Even though they're from the same country."
+57 : "You will not gain any experience as an adventurer by attacking me…Be gone!"
+58 : "Ah ha~! I see your blood-thirsty eyes and the way you hold that sword menacingly. You must be a PK. Prepare for my attack!!"
+59 : "No more cautions and warnings. If it's a fight you're looking for I will satisfy you till your death."
+60 : ""
+
+61 : "My Father and Mother reside here as well. I've become a guard to protect them from the monsters of Grey Mounts."
+62 : "It's always the quiet, well tempered ones that become fierce when they encounter an enemy."
+63 : "Legend has it that there are but few of OPG's within the nation of Vyseus. I wish I stumbled upon one..."
+64 : "This kind of action will only bring harm, I must defend myself if you continue."
+65 : "This must be some hobby of yours to attack other people for no reason whatsoever..."
+66 : "We are no different from you. Why must you attack us? Alas I must meet this act of violence with the same!"
+67 : "There is a PK around! Get him!"
+68 : ""
+69 : ""
+70 : ""
+
+71 : "Three of my best comrades have lost their lives for your enjoyment. There will be NO MERCY WHATSOEVER."
+72 : "Athyas of the azure skies, grant me the strength to perish my enemies."
+73 : "Vyseus? The dogs of the hierarchy has graced us? Away with thee!!"
+74 : "How did they cross our borders! Get them!"
+75 : ""
+76 : ""
+77 : ""
+78 : ""
+79 : ""
+80 : ""
+
+81 : "I pray thee pardon my manners, for I'm in no mood for joys of dialogue."
+
+;lotto
+82 : ""
+83 : ""
+
+84 : "You can see if you win a lottery in the Colosuss Arena."
+
+
+85 : "You have to select %d numbers."
+86 : "You have won. But you do not have sufficient inventory space. Please check again after organizing your inventory."
+87 : "Too bad... you lost. Please try again."
+88 : "Congratulations, you won the lottery! %d items have been added to your item inventory."
+
+
+89 : "You cannot make the purchase because, at present, it isn't the registration period."
+90 : "You cannot make the purchase because the number has already been registered."
+91: "You cannot select more numbers."
+92: "You have already selected this number."
+93: "You cannot register this lotto ticket because you have already registered it."
+94: "You do not have enough Crit."
+95: "You have purchased one lotto ticket. %d Crit has been payed out."
+
+
+96: "<The winning numbers>"
+97: "<My numbers>"
+98: "The draw has not yet been made."
+
+
+99: "We are not in event period at this time."
+
+100 : "Attempting to loot may increase your PK rating."
+
+100 : ""
+101 : " NPC is busy, Retry later."
+
+102 : ""
+103 : ""
+104 : ""
+105 : ""
+
+106 : "The character is abnormal"
+107 : "You do not have an item to upgrade"
+108 :
+109 :
+110 :
+111 :
+112 :
+113 :
+114 :
+115 :
+116 :
+117 :
+118 :
+119 :
+120 :
+
+121  : "0:Basil"
+122  : "1:Dill"
+123  : "2:Fennel"
+124  : "3:Lavender"
+125  : "4:Lemonbalm"
+126  : "5:Mint"
+127  : "6:Rosemary"
+128  : "7:Sage"
+129  : "8:Thyme"
+130  : "9:Geranium"		
+131 : ""
+132 : ""
+133 : ""
+134 : ""
+135 : ""
+
+;Messages from the book, Learning Dual Magic.
+136 : "You need the %dth Dual Symbol."
+137 :
+138 :
+139 :
+140 :
+:Message SymbolItem
+141 :"Dual item was added."
+142 :"Dual item was upgraded."
+143 :
+144 :
+145 :
+146 :
+147 :
+148 :
+149 :
+150 :
+
+151  : "Cultivating"					
+152  : "Mining"					
+153  : "Fishing"					
+154  : "Lumbering"					
+155  : "Herb"					
+156  : "NPC Generation"					
+157  : "Not a skill"					
+158  : "House"					
+159 : ""					
+160 : ""					
+
+161  : "Consecutive Numbers"	Property Type	Coordinate X	Coordinate Y	Area of effect(appearance number) Success Probability(Script)  NPC Inherent Number	"Lower rank related Data \n"
+162  : "\n Cultivating:      %d"	Mining: %d			Fishing: %d			Lumbering: %d			Herb Digging: %d"
+163 : "NPC Max appearance number:	%d	NPC appearance area number:	%d	Event NPC number:	%d	Non-Event NPC number:	%d"
+164 : ""
+165 : ""
+166 : ""
+167 : ""
+168 : ""
+169 : ""
+170 : ""
+
+171 : "Store keep"															
+172 : "Hey you"															
+173 : "Owner"															
+174 : "Anyone is home?"	
+175 : ""
+176 : ""
+177 : ""
+178 : ""
+179 : ""
+180 : ""
+    
+181 :
+182 :
+183 :
+184 :
+185 :
+186 :
+187 :
+188 :
+189 :
+190 :
+    
+191 : "[Fire]"
+192 : "[Ice]"
+193 : "[Lighting]"
+194 : "[Undead]"
+195 : "[Piercing]"
+196 : "[Ether]"
+197 : "[Creature]"
+198 : "[Summon]"
+199 : "[Taming]"
+200 : "[WeakBoss]"
+    
+201 : "Female"		  
+202 : "Male"		
+203 : "Field Rat"
+204 : "Scorpion"
+205 : "Baku"
+206 : "Zombie"
+207 : "Slime"
+208 : "Skeleton"
+209 : "Goblyn"
+210 : "Man-eating Plant"
+211 : "Gargoyle"
+212 : "Bear"
+213 : "Orge King"
+214 : "Troll"
+215 : "Lycanthrope"
+216 : "Minotaurus"
+217 : "Balroc"
+218 : "Balroc wing"
+219 : "Guard"
+220 : "Guard"
+221 : "Guard"
+222 : "Fat Woman"
+223 : "Warrior in iron-made mantle"
+224 : "Traveler(Quest)"
+225 : "Guard Tower"
+226 : "Hell Hound"
+227 : "Dark seraphim"
+228 : "Horse"
+229 : "Chicken"
+230 : "Dog"
+231 : "Cow"
+232 : "Fatal skeleton"
+233 : "Nekrozen"
+234 : "Wolf"
+235 : "Brue"	
+236 : "Styrge"
+237 : "DragonTurtle"
+238 : "Scyclropse"			 
+239 : "Stone Golem"
+240 : "Ogre"
+241 : "Man-Scorpion"
+242 : "Wyvern"
+243 : "Mugina"
+244 : "Harpy"
+245 : "Crystal Golem"
+246 : "Spectre"
+247 : "Ghost"
+248 : "Lizard man"
+249 : "Etin"
+250 : "Skeleton King"
+251 : "Dragon"
+252 : "Dragon Lord"
+253 : "Dragon Heart"
+254 : "Lamb"
+255 : "Succubus"			
+256 : "Dark Bear"				
+257 : "Tepheary"
+258 : "Yeti"
+259 : "Meti"				
+260 : "Leucrocotta"			
+261 : "Rhinoceros"			
+262 : "Otyugh"
+263 : "Orc"
+264 : "Protection stone"			
+265 : "Last protection stone"				
+266 : "Castle door"			
+267 : "Castle door"			
+268 : "Castle door"			
+269 : "Lavar"
+270 : "Charon"
+271 : "Dark seraphim"
+272 : "Banker/Owner of Town Hall"
+273 : "Inn/Tavern Keep"
+274 : "Baker"
+275 : "Carpenter/Bow-maker"
+276 : "Blacksmith/Owner of Weapon shop"
+277 : "Owner of Grocery store/Owner of Farm"
+278 : "Butcher"
+
+279 : "Candle-maker"
+
+280 : "Alchemist/Astrologist"
+281 : "Unknown Character"
+282 : "Death Knight"
+283 : "Death Lord"	
+284 : "Vampire"	
+285 : "Lich"
+286 : "Cerberos"	
+287 : "Hell Made"	
+288 : "Ifrit"	
+289 : "Blitz"	
+290 : "Hatchling"	
+291 : "Styx"	
+292 : "Sanctuary stone"
+293 : "For shorter range weapon training"		
+294 : "For short range weapon training"		
+295 : "For long range weapon training"		
+296 : "For middle range weapon training"		
+297 : "For tactic training"				
+298 : "Soccer ball"	
+299 : "Sanctuary stone"
+300 : "Sanctuary stone"
+301 : "The Salvation Army"
+302 : "The Red-Cross"
+303 : ""
+304 : ""
+305 : ""
+306 : ""
+307 : ""
+308 : ""
+309 : ""
+310 : ""
+311 : ""
+312 : ""
+313 : ""
+314 : ""
+315 : ""
+316 : ""
+317 : ""
+318 : ""
+319 : "Dwarf"
+320 : "Dark Elf"
+321 : "Mushroom King"
+322 : "Argos"
+323 : "SandTrap"
+324 : "SandWorm"
+325 : "" 
+326 : ""
+327 : ""
+328 : ""
+329 : ""
+330 : ""
+331 : ""
+332 : ""
+333 : ""
+334 : ""
+335 : ""
+336 : ""
+337 : ""
+338 : ""
+339 : ""
+340 : ""
+341 : ""
+342 : ""
+343 : ""
+344 : ""
+345 : ""
+346 : ""
+347 : ""
+348 : ""
+349 : ""
+350 : ""
+351 : ""
+352 : ""
+353 : ""
+354 : ""
+355 : ""
+356 : ""
+357 : "Klattu"
+358 : ""
+359 : ""
+360 : ""
+361 : ""
+362 : ""
+363 : ""
+364 : "Gazer"
+365 : "Sars"
+366 : "Iron Gloem"
+367 : "Griffon"
+368 : "Shylph"
+369 : ""
+370 : ""
+371 : ""
+372 : "White Bear"
+373 : "Valkyrie"
+374 : "Skeleton Archer"
+375 : "Orcmage"
+376 : "Dark Archer"
+377 : "Amurtart"
+378 : "Castle Gate"
+379 : "Outer Protection Stone"
+
+401 : "0:Laterite"
+402 : "1:Red-colored grounds"
+403 : "2:Brown-colored grounds"
+404 : "3:Prairie"
+405 : "4:Chernogem"
+406 : "5:Maroon grounds"
+407 : "6:Desert"
+408 : "7:Podzol"
+409 : "8:Tundra"
+410 : "9:Ice & snow"
+411 : ""
+412 : ""
+413 : ""
+414 : ""
+415 : ""
+416 : ""
+417 : ""
+418 : ""
+419 : ""
+
+420 : ""
+421 : "0:Shield-shaped land"
+422 : "1:Great land"
+423 : "2:Plains"	
+424 : "3:Recently made mound"
+425 : "4:Ancient made mound"
+426 : ""
+427 : ""
+428 : ""
+429 : ""
+430 : ""
+431 : ""
+432 : ""
+    
+500 : "Requesting the proper list you want to buy, please wait for a second..."
+501 : "The term is strange. Try to request again after the check..."
+502 : "The result of the list you wanted to buy has arrived. It can be the case that there is no item listed."
+503 : "You cannot buy the item you have sold before..."
+504 : "Request direct trade. Trading is not possible when the seller is not near."
+505 : "Trying to buy the chosen item..."
+506 : "Succeeded in buying. You can take the item with Trade-result-finding..."
+507 : "Failed when trying... Lack of bank balance or the item has already been sold or you are far from the trade object in case of direct trade..."
+508 : "The result of trying to buy is strange.(Error Code %d)"
+509 : "You cannot yse this because you are not merchant."
+510 : "There is no more."
+511 : "Requesting the list of objects that you are selling. Please wait..."
+512 : "Received the list of items that you are selling."
+513 : "The item does not exist. (Error)"
+514 : "Trying to cancel of the selling."
+515 : "Cancellation of selling succeeded. The result will be put in to your inventory."
+516 : "A problem has occurred during the cancellation of selling. Please check that your inventory has sufficient space left. The target item will now be in the status of trade-possible."
+517 : "Trying to register a new item in the selling list. Please wait..."
+518 : "Succeeded in registering."
+519 : "Failed to register."
+520 : "Requesting the trade result list. Please wait..."
+521 : "Received the trade result list."
+
+522 : "Received the trade result list."
+523 : "Requested furnishment for the trade result."
+524 : "Please choose the result and request furnishment."
+525 : "Received the furnishment of result."
+526 : "You cannot trade with yourself."
+527 : "Received the result of watching items."
+
+540 : "Cash(Crit)"
+541 : "Direct-trade"
+550 : "no item"
+551 : "Charge"    
+560 : "This item cannot be exchanged."
+561 : "Exchanging cheque item.\n It will be exchanged as the unit right below, in case of a 5 million crit cheque,\n it is exchanged with 5 pieces of 1 million Crit.\n Please check your inventory in advance before space before commencing the exchange."
+562 : "Merchant Notice"  
+
+
+
+ ;Search by merchant - soto
+600 : "1 Day"
+601 : "3 Days"
+602 : "1 Week"
+603 : ""
+604 : ""
+605 : ""
+606 : ""
+607 : ""
+608 : ""
+609 : ""
+610 : ""
+ 
+611 : "ring"
+612 : "axe"
+613 : "staff"
+614 : "gauntlet"
+615 : "hammer"
+616 : "mace"
+617 : "dagger"
+618 : "spear"
+619 : "fencing"
+620 : "glove"
+621 : "high"
+622 : "bow"
+623 : "rare"
+624 : "wand"
+625 : "sardonyx"
+626 : "shoes"
+627 : ""
+628 : ""
+629 : ""
+630 : ""
+ 
+ 
+
+ 
+ 
+   
+[etc]
+1 : "You do not feel well about your demise."
+2 : "You do not have enough money to fix this item."
+3 : "This item isn't treated here."
+4 : "This is an odd item."
+5 : "This item is completely broken."
+6 : "The connection with the server is unstable."
+7 : "You have learned all the skills."
+8 : "Already learned these skills."
+9 : "Your level isn't high enough to learn all."
+10 : "Money isn't enough to learn this skill."
+
+11 : "You already learned this spell."
+12 : "Your ability is not high enough."
+13 : "There is no spell of that sort."
+14 : "You do not have enough money for the preventive measures."
+15 : "You do not have enough money for treatment."
+16 : "You do not have enough money to use the Inn."
+17 : "You are not within the walls of a Temple."
+18 : "Time of worship has ended."
+19 : "Already received."
+20 : "You cannot move when you are dead."
+
+21 : "You cannot register yourself in a party."
+22 : "You cannot register yourself."
+23 : "Only possible for the same level."
+24 : "You cannot make a party with a person of a different nationality."
+25 : "You have succeeded in learning the magic."
+26 : "%s vaccination received."
+27 : "%s has been treated."
+28 : "The light version limits travel to certain maps."
+29 : "Order the CD at the homepage(http://www.dr-int.com)."
+30 : "If there is a level difference of more than 35 with party members, the party experience is not divided to those."
+    
+31 : "That person is in exchange with another."
+32 : "Under exchange now."
+33 : "Item for exchanging has been used."
+34 : "Who will you exchange with?"
+35 : "That person left this world."
+36 : "He cannot exchange right now."
+37 : "The exchange has been cancelled."
+38 : "The exchange has been completed."
+39 : ""
+40 : ""
+
+41 : "Your whisper was sent to %s."
+42 : "Failed to whisper to %s."
+43 : "Whispering succeeded."
+44 : "You cannot whisper to the dead."
+45 : "The receiver has refused to accept whispers."
+46 : "You cannot whisper to a person of a different nationality."
+47 : "Whispering failed."
+48 : ""
+49 : ""
+50 : ""
+
+51 : "Succeeded in mailing."
+52 : "Failed in sending a mail."
+53 : "Edelweroi of cosmos and the great storm"
+54 : "The holy Uphinel and Helkaness"
+55 : "%s"
+56 : "You are not admitted to a Guild."
+57 : "There is no one with the name '%s'."
+58 : ""
+59 : ""
+60 : ""
+
+61 : "You cannot use blank spaces when creating a name. Please try again."
+62 : "That name is already in use, or cannot not be used."
+63 : "You must first decide the city to log in to or click 'Recent Logout' to log in."
+64 : "Log in at the most recent logout position."
+65 : "Connecting to the server to move to the selected city."
+66 : "Return to the previous menu."
+67 : "You can log in by double clicking on a town, or by clicking on a town and then click the 'Connect' button. You can also login at the most recent logout position in the game by clicking 'Recent Logout'."
+68 : "Are you sure you want to choose the '%s' skill?"
+69 : "Are you sure you want to choose the '%s' nation?"
+70 : "Are you sure you want to delete '%s'?"
+
+71 : "Failed to log in on the server. Please try again in a few moments."
+72 : "You cannot log in with the alpha test character."
+73 : "Welcome to Dragon Raja Online. Move to the Beginner's Information center."
+74 : "Your service period has %d days left. Payment must be made during that remaining time."
+75 : "This ID is not registered. Please register it at 'http://account.dr-int.com'."
+76 : "The password is incorrect. Please try again."
+77 : "This ID is already in use."
+78 : "Your version is not up-to-date. Please go to 'http://forum.dr-int.com' to receive an update."
+79 : "Failed to log on the DB server. Please try again in a few moments."
+80 : "Server is on update right now. Please go to 'http://forum.dr-int.com' for details."
+
+81 : "Party"
+82 : "You made party with %s."
+83 : "%s has made party with me."
+84 : "IDs may only consist of letters in the alphabet and numbers. Please refer to the Dragon Raja Site for details."
+85 : "This game is a charged service. Please refer to the Dragon Raja Site for details."
+86 : "ID and/or Password is incorrect. Please re-enter it correctly."
+87 : "Are you sure you want to delete this character? Deleted characters cannot be restored."
+88 : "Exiting game and directing you to the ID registration at the Dragon Raja website."
+89 : "http://www.dr-int.com"
+90 : "Your character is restoring now, please try again later"
+
+
+91 : "No one carries the name of '%s'."
+92 : "'%s'-> Whispering is set."
+93 : "Chatting is set to basic settings."
+94 : "Changing settings to party-chatting."
+95 : "You have not joined a party."
+96 : "You are not affiliated to a Guild."
+97 : "Settings are changed to guild-chatting. Persons in another map cannot hear you."
+98 : "%s has attacked you."
+99 : "You have been attacked."
+100 : "Tactics raised at the tactic training grounds are limited to a certain amount depending on your level."
+
+101 : ""
+102 : ""
+103 : ""
+104 : ""
+105 : ""
+106 : ""
+ 
+107 : "Poison"
+108 : "Paralyze"
+109 : "Magic"
+110 : "Fire"
+111 : "Ice"
+112 : "Lightning"
+113 : ""
+114 : ""
+115 : "male  "
+116 : "female"
+117 : "Requirements %s %s"
+118 : "      Wearable"
+119 : "    Unwearable"
+120 : "Requirements:"
+121 : "%d/%d ~ %d/%d"
+122 : "Possible to equip during:"
+123 : "Requirements for skill level"
+124 : "dual %d grade or more"
+
+125 : "warrior unwearable"
+126 : "thief unwearable"
+127 : "archer unwearable"
+128 : "wizard unwearable"
+129 : "priest unwearable"
+
+    
+    
+[justmsg]
+1 : "Organizing installed files. This will take about 1 minute. Pressing 'OK' will resume the progress."
+2 : "Do not restart or activate another application. Please wait for the next message."
+3 : "Process complete. Starting program now."
+4 : "Organizing files to be installed. \n This will take approximately 1 minute.\n\n Pressing 'OK' will resume the progress."
+5 : "Update has not been completed. Please restart the program."
+6 : "Some of the data in the client is modified. Please restart the program."
+7 : "There is an error in the file. You must re-set."
+8 : "Error 1"
+9 : "The numerical value beside means `character's first value. If you're `satisfied with it, click 'YES' `button to complete a character. `If not, click 'NO' button to roll `a dice down again.."
+10 : "Choosing character's skin color and belt color."
+
+11 : "Error4"
+12 : "What item is to be deleted? "
+13 : "The '%s' item has broken."
+14 : "Which item's durability will you lower?"
+15 : "How do you learn what's not on the item list? Check please."
+16 : "You have succeeded in learning the item."
+17 : "This file is a 'Read only' file. \n Not saved."
+18 : "%d/%d. The total size of the Source read by the SOU2 of %s is %d."
+19 : "Packet size is not right."
+20 : "Failed to read item table."
+
+21 : "Which God is worshipped"
+22 : "Is the Priest who leads you '%s'?"
+23 : "There is no character by that name."
+24 : "That character is not registered in our church."
+25 : "Updating the server database."
+26 : "%s temple will now hold the Great Worship soon."
+27 : "%s temple will now hold the Small Worship soon."
+28 : "[%s]Team's '%s' has been killed."
+29 : "Congratulations! You have succeeded in catching the wanted person from the bounty board."
+30 : "Prize money is %d."
+
+31 : "%s has succeeded in killing %s, who is registered on the bounty board as wanted."
+32 : "Relation"
+33 : "Employment"
+34 : "Magician's magics must be memorized before they can be used."
+35 : "There has been a currency reform. Please take the Cells that you have and exchange them at the town hall for Crits."
+36 : "You have %d seconds to change your equipment."
+37 : "There is a strange item on the sell item list. Please check."
+38 : "Connection to the server has been lost... Please log in again."
+39 : "There are too many log in requests. Please try again shortly."
+40 : "There is a strange value within the alignments. Please check the server."
+
+41 : "How does the peace offer come to a non-king?"
+42 : "The connection with the server was interrupted."
+43 : "Your basic physical ability score was divided automatically."
+44 : "Your basic physical ability score will be divided according to your class in %d seconds."
+45 : "To modify manually, use the command '/manual'."
+46 : "Automatic modification is recommended for beginners."
+47 : "The class represents the character's characteristic in battle."				
+48 : "Character's sex can be selected: male or female."
+49 : "Able to choose only one between Magician and Priest."
+50 : "Magician and Priest are already selected.."
+
+51 : "There seems to be a problem with the [%s] file.\n Please check the file. \n Exiting... "
+52 : "%s Location %4d,%4d"
+53 : "you have not enough buffer (memory) to read a game sprite.(error code : 394)"
+54 : "You finished the Quest succesfully!"
+55 : "Non-existing Quest."
+56 : "Experience points error."
+57 : "Character's beginning alignment. Can be changed during game play."
+58 : "Connection has been lost. Please reconnect again shortly."
+59 : "There are too many log in requests. Please try again shortly."
+60 : "There seems to be a problem with the [%s] file.\n Please check the file. \n Exiting... "
+
+61 : "*s has something."
+62 : "More memory is needed to execute. Please free up more harddisk space or memory. \n %s FILE %d LINE(%d)"
+63 : "Not receiving character info correctly."
+64 : "There is no contents to load."
+65 : "Please enter the character's name to be used. Must be within 16 letters."
+66 : "This is your character's portrait that will be shown."
+67 : "A building has no staying power, do debug~"
+68 : "The table in my house got check sum error~"
+69 : "Got a %d item"
+70 : "Item table no.0 has check sum error~"
+
+71 : "Item table no.1 has check sum error~"
+72 : "Item table no.2 has check sum error~"
+73 : "Item table no.3 has check sum error~"
+74 : "Item table no.4 has check sum error~"
+75 : "Item table no.5 has check sum error~"
+76 : "Item table no.6 has check sum error~"
+77 : "Item table no.7 has check sum error~"
+78 : "Item table no.8 has check sum error~"
+79 : "Item table no.9 has check sum error~"
+80 : "Item table no.10 has check sum error~"
+
+81 : "Item table has a problem [%d]"
+82 : "Magic table has check sum error~"
+83 : "Skill table has check sum error~"
+84 : "Item join table has check sum error~"
+85 : "You cannot make an item."
+86 : "%s file %d order line item was nothing or could not find file."
+87 : "Item quest explanation table has check sum error~"
+88 : "Item explanation too long."
+89 : "Quest table data has check sum error~"
+90 : "Selecting the character's strongest weapon tactic."
+
+
+91 : "Select the job of the character."
+92 : "Select age from 15 to 45."
+93 : "Select a nation to join."
+94 : "ENTER NAME"
+95 : "Cracking-tool detected. Connection has been terminated."
+    
+    
+[sprintf]
+1 : "%2d %-30s %3d frame %4fsecond \n."
+2 : "Making everyone in the map unable to attack."
+3 : "Making everyone in the map able to attack."
+4 : "Making everyone in the map unable to use magic."
+5 : "Making everyone in the map able to magic."
+6 : "Making everyone in the map unable to move."
+7 : "Making everyone in the map able to move."
+8 : "Disabling the revival ability of temple."
+9 : "Enabling the revival ability of temple."
+10 : "%d :Rank"
+
+11 : "<Attack is impossible>"
+12 : "<Attack is possible>"
+13 : "<Magic is impossible>"
+14 : "<Magic is possible>"
+15 : "<Movement is impossible>"
+16 : "<Movement is possible>"
+17 : "<Who are you going to logout?>
+18 : "<Promised rest?>"
+19 : "<Do you want to grant life?>"
+20 : "<Who do you want to transfer?>"
+
+21 : "<Who do you want to 'jump' transfer?>"
+22 : "<Where do you want to transfer?>"
+23 : "<Where do you want to transfer it by force?>"
+24 : "'Do you want to logout `%s`?'"
+25 : "'Do you want `%s` to become a ghost?'"
+26 : "'Do you want to revive `%s`?'"
+27 : "'Do you transfer `%s` forcedly?'"
+28 : "'Do you want to `jump` transfer `%s` by force?'"
+29 : "%d:닫": *
+30 : "The event happened. Server_id: %d"
+
+31 : "Close Help"
+32 : "Page %d"
+33 : "Previous"
+34 : "Next"
+35 : "NPC maximum generation :%d scrip: %d"
+36 : "Item Exchange"
+37 : ""
+38 : "Well, this kind of error is not good...[%d]"
+39 : ""
+40 : "This item is %d order and server ID is %d.
+
+41 : "It's not time to take a promised rest yet. I, the light of Salvation, will help you revive."
+42 : "Saying 'Edelweroi of cosmos and the great storm' here, will make you revive."
+43 : "Follow me, I will lead you to the Temple of Edelweroi."
+44 : "Edelweroi Temple in Helternt Village is at coordinates 288,18. Please follow me."
+45 : "Edelweroi Temple in Renes city is ay coordinates 184,70. Please follow me."
+46 : "Speak the prayer on the red carpet. 'Edelweroi of cosmos and the great storm'."
+47 : "For the date of accepting the fate of the Dragon Raja.."
+48 : "Your light of Salvation, I will leave now."
+49 : "Saving light"
+50 : "Receiving information from the server."
+    
+51 :  "The ID is in use or failed in logging in to the authentication server."
+52 : "WIS [ %d ]"
+53 : "INT [ %d ]"
+54 : " Orison [ %d ]"
+55 : " Magery [ %d ]"
+56 : "Mana points(WS/PS) [ %d ]"
+57 : "Money [ %d CRIT ]"
+58 : "Money [ %d CELL ]"
+59 : "TACTICS [ %d ]"
+60 : ""
+    
+61 : "Creating Primary Surface Failed"
+62 : "Creating Second Surface Failed"
+63 : "The character ability degree(define number:[%d]) client cannot accept it now.
+64 : "No Material"
+65 : "Unable to figure out"
+66 : "Edelweroi"
+67 : "Tepheary"
+68 : "Lethy"
+69 : "Orem"
+70 : ""
+
+71 : "Date: %2d / %2d / %2d /%2d:00"
+72 : "  Y    M    D"
+73 : "%2dMonths %2dDays %2dHours past"
+74 : "Months Days Hours past"
+75 : "%s coordinates %4d,%4d"
+76 : "This is the Temple of Edelweroi of cosmos and the great storm."
+77 : "This is the Temple of Tepheary."
+78 : "This is the Temple of Lethy."
+79 : "Great worship \n Time : 6th of every month at 11 a.m. \n Boon : Magic Studies \n Must attend \n \n Small Worship \n Time : 11 p.m. everyday"
+80 : "Boon : Free Food \n \n Annual Worship \n Time : April 6th 6p.m. every year. \n Boon : Annual Event \n Must attend"
+
+81 : "Great worship \n Time : Every first of the month at 6 a.m. \n Boon : Magic Studies \n Must attend \n \n Small Worship \n Time : 11 a.m. everyday"
+82 : "Boon : Free Food \n \n Annual Worship \n Time : July 17th 11 a.m. every year. \n Boon : Annual Event \n Must attend"
+83 : "Great worship \n Time : 6th of every month at 11 a.m. \n Boon : Magic Studies \n Must attend \n \n Small Worship \n Time : 5 p.m. everyday"
+84 : "Boon : Free Food \n \n Annual Worship \n Time : December 12th 1 p.m. every year. \n Boon : Annual Event \n Must attend"
+85 : "Will you register in the Temple of '%s'?"
+86 : "You are already registered to this Temple. Will you cancel?"
+87 : "You are already registered to the Temple of '%s'. Will you proceed with registration?"
+88 : "Congratulations for becoming a candidate for King. Will you register as a candidate? \n As a King, you have the ability to use, '/everyone' and be able to send messages to everybody of the nation and propose armistice with the hostile nation as well."
+89 : "You do not have a skill ready to be registered as a GM."
+90 : "Money: %d Crit"
+91 : "Money: %d Cell"
+92 : "%s : %d pieces"
+93 : "In the name of the flower in the storm"
+94 : "For the small luck when it's needed."
+95 : "Only depending on the sword of honor and justice."
+96 : "Yes"
+97 : "Yes"
+98 : "Yeah"
+99 : "No"
+100 : "Definitely not"
+    
+    
+101 : "Level is not high enough."
+102 : "You must learn other spells first."
+103 : "Magic tactic is not high enough."
+104 : " WIS is not high enough."
+105 : "INT is not high enough."
+106 : "Memorize points is not high enough. "
+107 : "Money is not high enough."
+108 : "WS is not high enough. "
+109 : "PS is not high enough."
+110 : "Unable to learn this magic"
+
+111 : "What are you looking at?"
+112 : "Is this your first time in seeing this such a house?"
+113 : "'%s's whisper>> %s"
+114 : "Now ignoring all whisper messages."
+115 : "You will ignore all whisper messages sent by '%s' from now on."
+116 : "You are already ignoring all whisper messages from '%s'."
+117 : "You are now hearing all whispers."
+118 : "All"
+119 : "You are now hearing whispers from '%s'."
+120 : "Currently, you are in the 'Ignore all whispers' mode."
+
+121 : "Currently, you are in the 'Listen all whispers' mode."
+122 : "You are ignoring all whispers from '%s'."
+123 : "There is something wrong in the '%s' file at line %d."
+124 : "There is an error probability in the explanation output."
+125 : "Whisper to"
+126 : "Whisper what"
+127 : "Loading image(imagery) data volume: [%d] byte."
+128 : "/%s : Find the enemy in the neighboring areas. Imperative word only available to the guild master."
+129 : "The eyes of Athyas"
+130 : "The will of Nhilim"
+
+131 : "----------------- Guild Command List ----------------"
+132 : "/Guild withdrawal <character ID>    : Withdraw a certain character from the Guild."
+133 : "/Guild admission  <character ID>    : Admit a certain character nearby into the Guild."
+134 : "/Guild shout                        : Deliver a message to all guild members logged on. (Only available to the Guild master)"
+135 : "/Guild announcement                 : Same as the guild shout option"
+136 : "/Guild ranking (1~5) <character ID> : Change a certain character's guild ranking"
+137 : "This is the 'game make' mode. It cannot check client."
+138 : "%s has been registered as [Grand Master]. Congratulations!"
+139 : "Required Tactic %s %d"
+140 : "Required Tactic "
+
+141 : "Attack Power %d~%d"
+142 : "Attack Power"
+143 : "Effect"
+144 : "Defense Power %d"
+145 : "Defense Power"
+146 : "Attack Success Rate %d"
+147 : "Attack Success Rate"
+148 : "Defense Success Rate %d"
+149 : "Defense Success Rate"
+150 : "Movement power %d"
+
+151 : "Movement power"
+152 : "Increase of Magical Resistance"
+153 : "Weight %d"
+154 : "%s Quantity %d"
+155 : "%s Durability %d/%d"
+156 : "Quantity %d"
+157 : "Durability %d/%d"
+158 : "Able to wear this by clicking the left-mouse button."
+159 : "This item can be used by clicking the right-mouse button."
+160 : "You can divide the quantity of this item by clicking the right-mouse button."
+    
+161 : "Magic books can be opened with the right-mouse button."
+162 : "This tactic will raise the effects of the %s magic."
+163 : "Magician"
+164 : "Priest"
+165 : "Equipable Nation"
+166 : "Equipable Level: %d"
+167 : "Equipable Fame value: %d"
+168 : "Function of putting in Potion."
+169 : ""
+170 : ""
+   
+171 : "'Dragon Raja Online Game' is based on the enormously popular best-selling fantasy novel 'Dragon Raja' by Young Do Lee. After making its first appearances on the internet, the published novels were sold more than 1.5 million times in 1998 alone. The player is put in to a world of high fantasy and adventure, where interaction and gameplay with many other players offer distinctive gameplay and fun. The systems have been based on such mug systems such as the 'diku' (where players gain experience points and advance) and the 'social' (where players have a daily routine of work and organizational activities) and the amber (where the player co-operates with other players and complete different quests and events) mug. Thus all compiled into a greater system of Dragon Raja's own, the State mug system."
+172 : "Donate for the Nation's revival. If you want to, click the 'Yes' button. Through the donation you will receive the shown item from the Nation."
+173 : "Signets are necessary in order to buy a guild Emporia and only the guild master can buy it. You can hold it for 30 days after purchase and extend the period of holding it after 25 days."
+174 : ""
+175 : "Having this item, you can share presents during Christmas holidays."
+176 : ""
+177 : ""
+178 : ""
+179 : ""
+180 : ""
+    
+181 : "Do you want buy it?"
+182 : "Do you want buy it?"
+183 : "Buy it"
+184 : "I buy it"
+185 : "Please, buy it"
+186 : "Sell it"
+187 : "Give me it"
+188 : "I would like to buy it"
+189 : ""
+190 : ""
+
+191 : "Are you going to sell it?"
+192 : "Are you going to sell it?"
+193 : "I sell it"
+194 : "Take it"
+195 : "Buy it"
+196 : "Buy it"
+197 : "I want to buy it"
+198 : ""
+199 : ""
+200 : ""
+
+201 : "Repair it"
+202 : "Please, repair it"
+203 : "Why don't you repair it?"
+204 : "Are you going to repair it?"
+205 : "Repair it"
+206 : "Please, repair it"
+207 : ""
+208 : ""
+209 : ""
+210 : ""
+
+211 : "을"
+212 : "를"
+213 : "이"
+214 : "가"
+215 : "는"
+216 : "은"
+217 : "개"
+218 : "에"
+219 : "."
+220 : "!"
+221 : "?"
+222 : "~"
+223 : ""
+224 : ""
+225 : ""
+226 : ""
+227 : ""
+228 : ""
+229 : ""
+230 : ""
+231 : ""
+
+250 : "Let all people be unable to steal, use bombs and traps in the map."
+251 : "Let all people be able to steal, use bombs and traps in the map."
+
+252 : "<stealing, bombs and traps not possible>"
+253 : "<stealing, bombs and traps possible>"
+
+300 : "Screenshot has been saved to '%s'."    
+[yesorno]
+1 : "Game master mode"
+2  "This file is 'dragon raja' v059verson Beta file for testing. It will be used from 30.October to 4. November temporarily and cannot be used in a general server.
+3 : ""
+4 : ""
+5 :
+6 :
+7 :
+8 :
+9 :
+10 :
+
+11 :
+12 :
+13 :
+14 :
+15 :
+16 :
+17 :
+18 :
+19 :
+20 :
+
+21 :
+22 :
+23 :
+24 :
+25 :
+26 :
+27 :
+28 :
+29 :
+30 :
+
+31 :
+32 :
+33 :
+34 :
+35 :
+36 :
+37 :
+38 :
+39 :
+40 :
+
+41 :
+42 :
+43 :
+44 :
+45 :
+46 :
+47 :
+48 :
+49 :
+50 :
+
+51 :
+52 :
+53 :
+54 :
+55 :
+56 :
+57 :
+58 :
+59 :
+60 :
+
+61 :
+62 :
+63 :
+64 :
+65 :
+66 :
+67 :
+68 :
+69 :
+70 :
+
+71 :
+72 :
+73 :
+74 :
+75 :
+76 :
+77 :
+78 :
+79 :
+80 :
+
+81 :
+82 :
+83 :
+84 :
+85 :
+86 :
+87 :
+88 :
+89 :
+
+
+
+101 :
+102 :
+103 :
+104 :
+105 :
+106 :
+107 :
+108 :
+109 :
+110 :
+111 :
+112 :
+113 :
+114 :
+115 :
+116 :
+117 :
+118 :
+119 :
+120 :
+121 :
+122 :
+123 :
+124 :
+125 :
+126 :
+127 :
+128 :
+129 :
+130 :
+131 :
+132 :
+133 :
+134 :
+135 :
+136 :
+137 :
+138 :
+139 :
+140 :
+141 :
+142 :
+143 :
+144 :
+145 :
+146 :
+147 :
+148 :
+149 :
+150 :
+151 :
+152 :
+153 :
+154 :
+155 :
+156 :
+157 :
+158 :
+159 :
+160 :
+161 :
+162 :
+163 :
+164 :
+165 :
+166 :
+167 :
+168 :
+169 :
+170 :
+171 :
+172 :
+173 :
+174 :
+175 :
+176 :
+177 :
+178 :
+179 :
+180 :
+181 :
+182 :
+183 :
+184 :
+185 :
+186 :
+187 :
+188 :
+189 :
+190 :
+191 :
+192 :
+193 :
+194 :
+195 :
+196 :
+197 :
+198 :
+199 :
+200 :
+
+    
+    
+    
+    
+    
+[temp]
+1 : "Show all factor values"
+2 : "This program is only for the developers"
+3 : "Too hungry to move"
+4 : "You cannot attack while dead"
+5 : "You're exhausted. You'd better take a rest for a while."
+6 : "Arms for short-range training"
+7 : "Arms, like a bow, for long-range training"
+8 : "Arms, like a pole, for mid-and long-range training."
+9 : "[Counselor]"
+10 : "kyul :%d"
+
+11 : "Melting Furnace"
+12 : "Loom"
+13 : "Working-table"
+14 : "Anvil"
+15 : "Charcoal Pot"
+16 : "Test Tube"
+17 : "Water-wheel"
+18 : "Melting pot"
+19 : ""
+20 : ""
+
+21 : "'%s' has resurrected you. Life is precious."
+22 : "'%s' has resurrected '%s'."
+23 : ""
+24 : ""
+25 : ""
+26 : ""
+27 : ""
+28 : ""
+29 : ""
+30 : ""
+
+31 : "The Female characters have the special trait of being able to use the Fencing Sword"
+32 : "The Male characters have the special trait of being able to use the Two-handed axe and the Two-handed sword."
+33 : ""
+34 : ""
+35 : ""
+36 : ""
+37 : ""
+38 : ""
+39 : ""
+40 : ""
+41 : ""
+42 : ""
+43 : ""
+44 : ""
+45 : ""
+
+46 : "This alignment is for the good and the just"
+47 : "This alignment is for the good"
+48 : "This alignment is for the basic good that believes justice comes first"
+49 : "This alignment remains neutral with most things but honestly"
+50 : "This alignment remains true to the neutrality in things"
+51 : "This alignment remains neutral but believes justice is not important"
+52 : "This alignment is for the evil, but who remain true to themselves"
+53 : "This alignment believes that the ends justify the means"
+54 : "This alignment believes in nothing but the self and greed"
+55 :  ""
+56 :  ""
+57 :  ""
+58 :  ""
+59 :  ""
+60 :  ""
+
+61 : "Natural strength, health and courage makes this class a formidable combatant in close encounters."
+62 : "This class faces the world with tricks and skills able to steal professionally."
+63 : "This class has natural dexterity and the instinct of hating vice. Good at using a bow."
+64 : "This class manipulates magic using the Mana, the living energy of nature. But it has weak physical strength in the early stage."
+65 : "Through the belief in gods, this class is granted the powers of gods to perform many tasks. This class can make the dead come to life again."
+66 : ""
+67 : ""
+68 : ""
+69 : ""
+70 : ""
+71 : ""
+72 : ""
+73 : ""
+74 : ""
+75 : ""
+
+76 : "Mainly use the Attack magic of Mana, the living energy of nature."
+77 : "Mainly use the Protection magic and Healing magic of Divine, the power of prayer."
+78 : ""
+79 : ""
+80 : ""
+81 : ""
+82 : ""
+83 : ""
+84 : ""
+85 : ""
+86 : ""
+87 : ""
+88 : ""
+89 : ""
+90 : ""
+
+91 : "Adjust the character's skin color."
+92 : "Adjust the color of the stripes in the character's equipped clothes."
+93 : ""
+94 : ""
+95 : ""
+96 : ""
+97 : ""
+98 : ""
+99 : ""
+100 : ""
+101 : ""
+102 : ""
+103 : ""
+104 : ""
+105 : ""
+
+106 : "This is the fisted-fighting tactic. High enough levels will ensure more damage than weapons do."
+107 : "Skill with the one-handed swords. The Warriors' common tactic."
+108 : "The skill with the bow and arrow. Widely used skill of the Archers."
+109 : "Tactic that increases the defense ability by using a shield."
+110 : "Skill of the heavy weaponry such as axes and morning stars."
+111 : "The skill of using the spear-type weapons."
+112 : "The skill of using the staff, rod and wands. Most commonly used by Magicians and Priests."
+113 : "The skill of throwing daggers. Most commonly used by the Thief."
+114 : "Tactic for the priest spell and it's effectiveness."
+115 : "The skill of using two-handed swords. Only available to male characters."
+116 : "The skill of using two-handed axe available only to male characters."
+117 : ""
+118 : ""
+119 : ""
+120 : ""
+
+121 : "This is the fisted-fighting tactic. High enough level will ensure more damage than weapons do."
+122 : "Skill with the one-handed swords. The Warriors' common tactic."
+123 : "The skill with the bow and arrow. Widely used skill of the Archers."
+124 : "The skill of using the fencing sword. Only available to the female characters."
+125 : "Skill of the heavy weaponry such as axes and morning stars."
+126 : "The skill of using the spear-type weapons."
+127 : "The skill of using the staff, rod and wands. Most commonly used by Magicians and Priests."
+128 : "The skill of throwing daggers. Most commonly used by the Thief."
+129 : "Tactic that increases the defense ability by using a shield."
+130 : "Tactic for the Magician magic and it's effectiveness."
+    
+131 : ""
+132 : ""
+133 : ""
+134 : ""
+135 : ""
+    
+136 : "Farmers have the skill to cultivate lands and plant seeds and harvest"
+137 : "Miners can find minerals and extract them"
+138 : "Fishers can catch fish by fishing with rods and nets"
+139 : "Lumberjacks have the skill to cut and lumber trees"
+140 : "Butchers have the skills to get meat and skin from dead animals"
+141 : "Herb-Diggers have the skills to find and dig out herbs"
+142 : "Shepherds can lead animals to and fro"
+143 : "Carpenters can make many items using wood"
+144 : "Blacksmiths can make many items using minerals"
+145 : "Cooks can make many foods which raise stamina"
+146 : "Tailors can make clothes out of cloth and silk"
+147 : "Bowyers can make bows and arrows out of wood"
+148 : "Alchemists can make special metals and potions"
+149 : "Candle-makers can make candles that brighten the dark nights"
+150 : "Merchants can buy and sell weapons while hiding merchandise from a Thief's hand"
+    
+151 : "Ah, finally you found me. It's never easy to do so, as a human. Um, you guys are not just ordinary people.. \n You seem to misunderstand me considerably. Human beings, not me, bring war and destruction. Instead, you came to kill me owing to only the possibility of my doing so, did you? The heroes who join hands with me can become the strongest of the continent. I can do it."
+152 : "Result comes out. Approval :%d, opposition :%d. Surprised at the fact that you all stood by me. Although I want to give the strength you need, unfortunately, I must go somewhere in hurry. In the place, satisfy with this. "
+153 : "Result comes out. Approval :%d, opposition :%d. Do you intend to stop me to the end? \n If so, I'll make you feel the shameful limits as a human."
+154 : "Result comes out. Approval :%d, opposition :%d. Seeing the result, I feel that I have to fight. I want to see those, who opposed to an alliance, dying with me. In this battle, revival is impossible. The winner is the side that survives to the end. Fixed time is 20 min..."
+155 : "There is no end in a fight between weak human. When do you finish the fight? Can you obtain peace and justice in this way? Sweep away you all...\n come on!!"
+156 : "For human beings, what? Never! Like them in old days, do you think that you defeated me? I live forever and someday I'll come back."
+157 : ""
+158 : ""
+159 : ""
+160 : ""
+    
+161 :
+162 :
+163 :
+164 :
+165 :
+166 :
+167 :
+168 :
+169 :
+170 :
+
+171 :
+172 :
+173 :
+174 :
+175 :
+176 :
+177 :
+178 :
+179 :
+180 :
+
+181 :
+182 :
+183 :
+184 :
+185 :
+186 :
+187 :
+188 :
+189 :
+
+190:
+191:
+192:
+193:
+194:
+
+
+195:
+196:
+197:
+198:
+199:
+200:
+
+    
+201 : "Helternt Village"
+202 : "Helternt Castle"
+203 : "Fire Dungeon 1fl"
+204 : "Ice Dungeon 1fl"
+205 : "Hudyne River "
+206 : "Man-made Dungeon 1fl"
+207 : "Inside of Helternt Castle "
+208 : "Fire Dungeon 2fl"
+209 : "Fire Dungeon 3fl"
+210 : "Ice Dungeon 2fl"
+211 : "Ice Dungeon 3fl"
+212 : "Man-made Dungeon 2fl"
+213 : "Man-made Dungeon 3fl"
+214 : "Hudyne Valley"
+215 : "Gray Mountains"
+216 : "Training Area"
+217 : "Dueling Area"
+218 : "Outer Kalaile Village "
+219 : "Kalaile Village "
+220 : "Renes city "
+221 : "Mini-Dungeon "
+222 : "Dark Dungeon"
+223 : "Outer Renes city "
+224 : "Desert "
+225 : "Count Silikian's Mansion 1fl"
+226 : "Count Silikian's Mansion 2fl"
+227 : "Beginner's Dungeon"
+228 : "Gray Mountains"
+229 : "Dark Dungeon 2fl"
+230 : "Dark Dungeon 3fl"
+231 : "Beginner's Area"
+232 : "Vyseus Impel"
+233 : "Iramus City"
+234 : "Deepuben"
+235 : "Warfield"
+236 : "Kaelune"
+237 : "Tynen"
+238 : "Mini-Dungeon 2fl"
+239 : "Mini-Dungeon 3fl"
+240 : "Soccer-field"
+241 : "Water Dungeon"
+242 : "East Desert"
+243 : "Great Desert"
+244 : "Great Grassy Plains"
+245 : "Guild Fighting Area"
+246 : "Ant Dungeon 1fl"
+247 : "Training Area (Renes city) "
+248 : "Long-Range Training area"
+249 : "Magic Training Area"
+250 : "Training Area 2"
+251 : "Long-Range Training Area"
+252 : "Magic Training Area"
+253 : "2nd Tactic Training"
+254 : "Guild Combat"
+255 : "Guild Combat"				
+256 : "Great Jungle"				
+257 : "Guild Combat"
+258 : "Guild Combat"				
+259 : "Great Valley"				
+260 : "Water Dungeon 2fl."				
+261 : "Dungeon of light"				
+262 : "Sedless"					
+263 : "Barantan"				
+264 : "Crimson Mounts."				
+265 : "Jorlan"		
+266 : ""
+267 : ""
+268 : ""
+269 : ""
+270 : ""
+
+271 :
+272 :
+273 :
+274 :
+275 :
+276 :
+277 :
+278 :
+279 :
+280 :
+
+281 :
+282 :
+283 :
+284 :
+285 :
+286 :
+287 :
+288 :
+289 :
+
+290 :
+291 :
+292 :
+293 :
+294 :
+295 :
+296 :
+297 :
+298 :
+299 :
+300 :
+301 :
+
+401 : 
+402 : 
+403 :
+404 :
+405 :
+406 :
+407 :
+408 :
+409 :
+410 :
+
+411 :
+412 :
+413 :
+414 :
+415 :
+416 :
+417 :
+418 :
+419 :
+420 :
+
+421 : "Neutral"
+422 : ""
+423 : ""
+424 : "Vyseus"
+425 : "Zypern"
+426 : "Hegemonia"
+427 : "Yllse"
+428 : ""
+429 : ""
+430 : ""
+
+431 : "Monday"
+432 : "Tuesday"
+433 : "Wednesday"
+434 : "Thursday"
+435 : "Friday"
+436 : "Saturday"
+437 : "Sunday"
+438 : ""
+439 : ""
+440 : ""
+
+441 : "Red"
+442 : "Blue"
+443 : "Green"
+444 : "Gray"
+445 : ""
+446 : ""
+447 : ""
+448 : ""
+449 : ""
+450 : ""
+
+451 : "Grapple"
+452 : "Sword"
+453 : "Archery"
+454 : "Fencing"
+455 : "Mace"
+456 : "Piercing"
+457 : "Whirling"
+458 : "Hurling"
+459 : "Parrying"
+460 : "Double Sword"
+461 : "Double Mace"
+462 : "Magery"
+463 : "Orison"
+
+464 : ""
+465 : ""
+466 : ""
+467 : ""
+468 : ""
+469 : ""
+470 : ""
+471 : ""
+472 : ""
+473 : ""
+474 : ""
+475 : ""
+476 :
+477 :
+478 :
+479 :
+480 :
+
+481 : "Farmer"
+482 : "Miner"
+483 : "Fisher"
+484 : "Lumberjack"
+485 : "Butcher"
+486 : "Herb-Digger"
+487 : "Carpenter"
+488 : "Blacksmith"
+489 : "Cook"
+490 : "Tailor"
+
+491 : "Bowyer"
+492 : "Alchemist"
+493 : "Candle-maker"
+494 : "Merchant"
+495 : "Skill Master of Blacksmith"
+496 : "Skill Master of Lumberjack"
+497 : "Skill Master of Bower"
+498 : "Skill Master of Tailor"
+499 : ""
+500 : ""
+
+
+501 : "Eat"
+502 : "@"
+503 : "TO"
+504 : "To Party"
+505 : "Comrade"
+506 : "To Guild"
+507 : "Map current people"
+508 : "Current people"
+509 : "Who"
+510 : "USER"
+511 : "PARTY"	
+512 : "Party"
+513 : "Walk"
+514 : "normal walking"
+515 : "running"
+516 : "normal running"
+517 : "rest"
+518 : "stop"
+519 : "STOP"
+520 : "attack"
+521 : "ATTACK"
+522 : "follow"
+523 : "FOLLOW"
+524 : "your name"
+525 : "NAME"
+526 : "the time"
+527 : "TIME"
+528 : "time off"
+529 : "close time"
+530 : "time"
+531 : "OFF"
+532 : "ignorelist"
+533 : "ignore"
+534 : "unignore"
+535 : "Note"
+536 : "Greetings"
+537 : "Closing explanation"
+538 : "Turning off explanation"
+539 : "explain"
+540 : "Duel"
+541 : "The authority of god"
+542 : "Magic re-order"
+543 : "All"
+544 : "Guild withdrawal"
+545 : "Guild admission"
+546 : "Guild all"
+547 : "Guild notice"
+548 : "Guild rank"
+549 : "Guild"
+550 : "change job"
+551 : "exchange job"
+552 : "armistice"
+553 : "the eyes of Athyas"
+554 : "the will of nhillim"
+555 : "taking a break"
+556 : "direction"
+557 : "open skill"
+558 : "close skill"
+559 : "open tactic"
+560 : "close tactic"
+561 : "saving light"
+562 : "auto off"
+563 : "auto on"
+564 : "help on"
+565 : "help off"
+566 : "whisper"
+567 : "all_"
+568 : "help"
+569 : "HELP"
+570 : "?"
+571 : "Emotion"
+572 : "Quitting guild"
+573 : "NK"
+574 : "$1"
+575 : "$2"
+576 : "$3"
+577 : "$4"
+578 : "W"
+579 : "I"
+580 : "Guild mail"
+581 : "$"
+582 : "#"
+583 : "Commander"
+584 : "Unit"
+585 : "Turning on guild chatting"
+586 : "Turning off guild chatting"
+587 : "Ability redistribution"
+588 : "Revival"
+589 : "Party cancel"
+590 : "Sending guild mail"
+591 : "Sending mail"
+592 : "Those who belong to flowing!"
+593 : "Reporter mode"
+594 : "Friend"
+595 : "Place for Resurrection"
+596 : "Orem's justice"
+597 : "COLOSSUS"
+598 : "COLOSSUS"
+599 : "Invitation"
+600 : "Participation"
+601 : "PK"
+602 : "Battle skill"
+603 : "%"
+604 : "QUEST"
+605 : "Turning on weather effect"
+606 : "Turning off weather effect"
+607 : "Redistribution of battle skill"
+608 : "Turning on magic effect"
+609 : "Turning off magic effect"
+610 : "!"	
+611 : "Normal note"	
+612 : "Guild note"	
+613 : "Note for guild's Notice"	
+614 : "TRADE"
+615 : "Dual Fame"	
+616 : "Questinmap"
+617 : "Merchant Notice"	
+618 : "Merchant Trade"				
+619 : "Event Joining"	
+620 : "I love you"	
+621 : "Smile"	
+622 : "Happy"	
+623 : "Shy"	
+
+
+624 : "Cry"
+625 : "Swell"	
+626 : "Sorry"
+627 : "Anger" 	
+628 : "Thank you"
+629 : "Call"		
+630 : "Scissors"
+631 : "Rock"
+632 : "Paper"
+633 : "Go"
+634 : "Help"
+635 : "Together"
+636 : "Heal"
+637 : "Trade!"
+638 : "Begging"
+639 : "Congratulation"	
+640 : "Block user notice"	
+641 : "User notice on" 
+642 : "User notice off"	
+643 : "Start assault"	
+644 : "finish assault"
+645 : "smp"
+646 : "partynote"
+647 : "deny duel"
+648 : "allow duel"
+649 : ""	
+650 : ""
+651 : ""
+652 : ""	
+653 : ""
+654 : ""
+655 : ""
+656 : ""
+657 : ""
+658 : ""
+659 : ""	
+660 : ""	
+661 : ""
+662 : ""
+663 : ""
+664 : ""
+665 : ""
+666 : ""
+667 : ""		
+668 : ""
+669 : ""
+670 : ""
+671 : ""
+672 : ""
+673 : ""
+674 : ""
+675 : ""
+676 : ""
+677 : ""
+678 : ""
+679 : ""
+680 : ""
+681 : ""
+682 : ""
+683 : ""
+684 : ""
+685 : ""
+686 : ""
+687 : ""
+688 : ""
+689 : ""
+690 : ""
+691 : ""
+692 : ""
+693 : ""
+694 : ""
+695 : ""
+696 : ""
+697 : ""
+698 : ""
+699 : ""
+700 : ""
