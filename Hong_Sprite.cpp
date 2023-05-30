@@ -111,7 +111,62 @@ int	GetBitsPerPixel( void )
 
 
 
+void SDL_CheckColorBitMask()
+{
+	wDxSize = SCREEN_WIDTH * 2;
+	dDxSize = SCREEN_WIDTH * 2;
 
+	_PixelInfo.BitMaskR = 0xF800;
+
+	if (_PixelInfo.BitMaskR == 0xF800)
+	{
+		// 요거이 RGB 5:6:5 포맷이니끼리 그렇게 알라우.
+		//			 4444----3333----2222----1111----
+		//           84218421842184218421842184218421
+		//           00000000000000011111011111011110;
+		_PixelInfo.ShiftRightR = 11;
+		_PixelInfo.ShiftLeftR = 0;
+
+		_PixelInfo.ShiftRightG = 5;
+		_PixelInfo.ShiftLeftG = 5;
+
+		_PixelInfo.ShiftRightB = 0;
+		_PixelInfo.ShiftLeftB = 11;
+	}
+	else {
+		if (_PixelInfo.BitMaskR == 0x7C00)
+		{
+			// 요고 RGB 5:5:5 포맷 아이가.
+			//			   4444----3333----2222----1111----
+			//             84218421842184218421842184218421
+			//             00000000000000001111101111011110;
+			_PixelInfo.ShiftRightR = 10;
+			_PixelInfo.ShiftLeftR = 1;
+
+			_PixelInfo.ShiftRightG = 5;
+			_PixelInfo.ShiftLeftG = 6;
+
+			_PixelInfo.ShiftRightB = 0;
+			_PixelInfo.ShiftLeftB = 11;
+		}
+		else {
+			if (_PixelInfo.BitMaskR == 0x001F)
+			{
+				// 아따 요것 BGR 5:6:5 포맷이것제.
+				//			   4444----3333----2222----1111----
+				//             84218421842184218421842184218421
+				_PixelInfo.ShiftRightR = 0;
+				_PixelInfo.ShiftLeftR = 11;
+
+				_PixelInfo.ShiftRightG = 5;
+				_PixelInfo.ShiftLeftG = 5;
+
+				_PixelInfo.ShiftRightB = 11;
+				_PixelInfo.ShiftLeftB = 0;
+			}
+		}
+	}
+}
 
 void	CheckColorBitMask(  LPDIRECTDRAWSURFACE  surface )
 {		
@@ -198,7 +253,11 @@ void	CheckColorBitMask(  LPDIRECTDRAWSURFACE  surface )
 
 void	InitSpriteTransTable( LPDIRECTDRAWSURFACE  surface )
 {		
+#ifndef _SDL2
 	CheckColorBitMask( surface );
+#else
+	SDL_CheckColorBitMask();
+#endif
 	
 	WORD	MaskG;
 	if( _PixelInfo.BitMaskR == 0x7c00)
@@ -780,6 +839,9 @@ exit_1:
 
 void PutCompressedImageTrans(int x, int y, Spr *sp, WORD MSK)
 {
+#ifdef _SDL2
+	SDL_Lock();
+#endif
 	int		lx, rx, ty, by , IsC=0;
 	
 	
@@ -852,7 +914,9 @@ void PutCompressedImageTrans(int x, int y, Spr *sp, WORD MSK)
 		else
 			PutCmprsImgNOTClipingTrans565( x, y, yl, sp->img, g_DestBackBuf, MSK);
 	}
-	
+#ifdef _SDL2
+	SDL_UnLock();
+#endif
 	return;
 }
 /////////////////////////////////////////////////////////////////////////// Put Sprite Transperensy..
@@ -1054,7 +1118,10 @@ exit_1:
 }
 
 void PutCompressedImage(int x, int y, Spr *sp )
-{		
+{	
+#ifdef _SDL2
+	SDL_Lock();
+#endif
 	int		lx, rx, ty, by , IsC=0;
 	
 	if( sp == NULL ) return;
@@ -1121,6 +1188,9 @@ void PutCompressedImage(int x, int y, Spr *sp )
 	{	
 		PutCmprsImgNOTCliping( x,  y, sp->yl, sp->img, g_DestBackBuf );
 	}	
+#ifdef _SDL2
+	SDL_UnLock();
+#endif
 }		
 
 
@@ -1339,7 +1409,9 @@ exit_1:
 }	
 void PutCompressedImageOneColor(int x, int y, Spr *sp, WORD color )
 {		
-	
+#ifdef _SDL2
+	SDL_Lock();
+#endif
 	int		lx, rx, ty, by , IsC=0;
 	
 	int		ey = SCREEN_HEIGHT - 128;
@@ -1407,6 +1479,9 @@ void PutCompressedImageOneColor(int x, int y, Spr *sp, WORD color )
 	{	
 		PutCmprsImgNOTClipingOneColor( x,  y, sp->yl, sp->img, g_DestBackBuf, color );
 	}	
+#ifdef _SDL2
+	SDL_UnLock();
+#endif
 }		
 
 
@@ -1658,7 +1733,10 @@ exit_1:
 }	
 
 void PutCompressedImageVoid(int x, int y, Spr *sp )
-{		
+{	
+#ifdef _SDL2
+	SDL_Lock();
+#endif
 	int	lx, rx, ty, by , IsC=0;
 	
 	if( sp == NULL ) return;
@@ -1715,11 +1793,17 @@ void PutCompressedImageVoid(int x, int y, Spr *sp )
 		PutCmprsImgVoidCliping( x,  y, sp->img, g_DestBackBuf, lx, rx, ty, by);
 	else
 		PutCmprsImgVoidNOTCliping( x,  y, sp->yl, sp->img, g_DestBackBuf );
+#ifdef _SDL2
+	SDL_UnLock();
+#endif
 }		
 
 
 void PutCompressImageApart( int x, int y, Spr *sp, int sx, int sy, int ex, int ey, int alpha )
 {
+#ifdef _SDL2
+	SDL_Lock();
+#endif
 	int		lx, rx, ty, by , IsC=0;
 	
 	int xl = sp->xl;
@@ -1784,7 +1868,9 @@ void PutCompressImageApart( int x, int y, Spr *sp, int sx, int sy, int ex, int e
 			PutCmprsImgClipingBlend565(x, y, sp->img, g_DestBackBuf, lx, rx, ty, by, alpha);
 		}
 	}
-	
+#ifdef _SDL2
+	SDL_UnLock();
+#endif
 }
 
 
@@ -1793,6 +1879,9 @@ void PutCompressImageApart( int x, int y, Spr *sp, int sx, int sy, int ex, int e
 
 void PutCompressImageSubApart( int x, int y, Spr *sp, int sx, int sy, int ex, int ey, int alpha )
 {
+#ifdef _SDL2
+	SDL_Lock();
+#endif
 	int		lx, rx, ty, by , IsC=0;
 	
 	int xl = sp->xl;
@@ -1862,7 +1951,9 @@ void PutCompressImageSubApart( int x, int y, Spr *sp, int sx, int sy, int ex, in
 			//			PutCmprsImgClipingBlend565(x, y, sp->img, g_DestBackBuf, lx, rx, ty, by, alpha);
 		}
 	}
-	
+#ifdef _SDL2
+	SDL_UnLock();
+#endif
 }
 
 
@@ -5178,6 +5269,9 @@ exit_1:
 
 void PutCompressedImageFX(int x, int y, Spr *sp, DWORD alpha, DWORD op)
 {
+#ifdef _SDL2
+	SDL_Lock();
+#endif
 	int		lx, rx, ty, by , IsC=0;
 	
 	if( sp == NULL ) return;
@@ -5339,6 +5433,9 @@ void PutCompressedImageFX(int x, int y, Spr *sp, DWORD alpha, DWORD op)
 				break;
 		}
 	}
+#ifdef _SDL2
+	SDL_UnLock();
+#endif
 	
 }		
 
@@ -5506,6 +5603,9 @@ exit_1:
 }																							
 void PutCompressedImageShadow( int x, int y, Spr *sp )
 {	
+#ifdef _SDL2
+	SDL_Lock();
+#endif
 	int	lx, rx, ty, by , IsC=0;
 	int xl = sp->xl;
 	int yl = sp->yl;
@@ -5569,6 +5669,9 @@ void PutCompressedImageShadow( int x, int y, Spr *sp )
 			PutCmprsImgNOTClipingShadow565( x, y, yl, sp->img, g_DestBackBuf);
 		}
 	}
+#ifdef _SDL2
+	SDL_UnLock();
+#endif
 }	
 
 
@@ -6167,6 +6270,9 @@ exit_for1:
 
 void PutCompressedImageBlendRGB( int x, int y, Spr *sp, DWORD RGB )
 {
+#ifdef _SDL2
+	SDL_Lock();
+#endif
 	int	lx, rx, ty, by , IsC=0;
 	
 	if( sp == NULL ) return;
@@ -6225,6 +6331,9 @@ void PutCompressedImageBlendRGB( int x, int y, Spr *sp, DWORD RGB )
 		if(IsC)	PutCmprsImgClipingBlendRGB565(x, y, sp->img, g_DestBackBuf, lx, rx, ty, by, RGB );
 		else 	PutCmprsImgNOTClipingBlendRGB565( x, y, yl, sp->img, g_DestBackBuf, RGB);
 	}
+#ifdef _SDL2
+	SDL_UnLock();
+#endif
 }		
 
 
@@ -6712,6 +6821,9 @@ exit_for1:
 
 void PutCompressedImageCharRGB( int x, int y, Spr *sp, DWORD RGB )
 {
+#ifdef _SDL2
+	SDL_Lock();
+#endif
 	int	lx, rx, ty, by , IsC=0;
 	
 	if( sp == NULL ) return;
@@ -6768,6 +6880,9 @@ void PutCompressedImageCharRGB( int x, int y, Spr *sp, DWORD RGB )
 		if(IsC)		PutCmprsImgClipingCharRGB565(x, y, sp->img, g_DestBackBuf, lx, rx, ty, by, RGB );
 		else 		PutCmprsImgNOTClipingCharRGB565( x, y, yl, sp->img, g_DestBackBuf, RGB);
 	}
+#ifdef _SDL2
+	SDL_UnLock();
+#endif
 }		
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 // @@@@@@@@@   RGB Diferent...
@@ -7248,6 +7363,9 @@ exit_for1:
 
 void PutCompressedImageCharRGBDifer( int x, int y, Spr *sp, DWORD RGB )
 {
+#ifdef _SDL2
+	SDL_Lock();
+#endif
 	int	lx, rx, ty, by , IsC=0;
 	
 	if( sp == NULL ) return;
@@ -7305,6 +7423,9 @@ void PutCompressedImageCharRGBDifer( int x, int y, Spr *sp, DWORD RGB )
 		if(IsC)		PutCmprsImgClipingCharRGBDifer565(x, y, sp->img, g_DestBackBuf, lx, rx, ty, by, RGB );
 		else 		PutCmprsImgNOTClipingCharRGBDifer565( x, y, yl, sp->img, g_DestBackBuf, RGB);
 	}
+#ifdef _SDL2
+	SDL_UnLock();
+#endif
 }		
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -7553,7 +7674,9 @@ exit_1:
 }	
 void PutCompressedImageWaveTile(int x, int y, Spr *sp )
 {		
-	
+#ifdef _SDL2
+	SDL_Lock();
+#endif
 	int		lx, rx, ty, by , IsC=0;
 	
 	if( sp == NULL ) return;
@@ -7618,6 +7741,9 @@ void PutCompressedImageWaveTile(int x, int y, Spr *sp )
 	{	
 		PutCmprsImgNOTClipingWaveTile( x,  y, sp->yl, sp->img, g_DestBackBuf );
 	}	
+#ifdef _SDL2
+	SDL_UnLock();
+#endif
 }		
 
 

@@ -68,7 +68,11 @@ static int HangulAlign;
 // 031110 YGI
 int LoadHangulEnglishFont( char *caHangulFileName, char *caEngFileName )
 {
+#ifndef _SDL2
 	EndFont();
+#else
+	SDL_EndFont();
+#endif
 /*
     FILE *fp;
     int i;
@@ -216,6 +220,21 @@ void EndFont(void )
 		DeleteObject( __HFontDial[i] );
 }
 
+void SDL_EndFont(void)
+{
+#ifdef _SDL2
+	HDC	hdc = GetDC(NULL);
+	{
+		for (int i = 0; i < 10; ++i)
+		{
+			HFONT hFontOld = SelectFont(hdc, __HFontDial[i]);
+			SelectFont(hdc, hFontOld);
+			DeleteFont(__HFontDial[i]);
+		}
+	}
+	ReleaseDC(NULL, hdc);
+#endif
+}
 
 
 void  HangulOutputArea( int lx, int rx, int ty, int by )
@@ -564,10 +583,22 @@ static void hprintcolor( HDC hdc, int percent, int x, int y, char *s )
 					strncmp( s+c1, "(stop:",6) &&
 					strncmp( s+c1, "(play:",6)			) && *(s+c1) != '\0' ; c1++ )	temps[c1] = *( s+c1); temps[c1] = 0;
 		s = s+c1;
-
+#ifndef _SDL2
 		SetTextColor( hdc, bc );
 		t = (char *)temps;
 		TextOut( hdc, x, y, temps, strlen( t ));
+#else
+		SDL_Color _bc = { (char)(bc >> 24), (char)(bc >> 16), (char)(bc >> 8), (char)bc };
+
+		SDL_Hprint(x - 1, y, NULL, temps, _bc, HangulAlign);
+		SDL_Hprint(x + 1, y, NULL, temps, _bc, HangulAlign);
+		SDL_Hprint(x, y - 1, NULL, temps, _bc, HangulAlign);
+		SDL_Hprint(x, y + 1, NULL, temps, _bc, HangulAlign);
+
+		SDL_Color _fc = { HR, HG, HB }; //{ (char)fc, (char)(fc>>8), (char)(fc>>16), (char)(fc>>24) };
+
+		SDL_HprintBold(x, y, NULL, temps, _fc, HangulAlign);
+#endif
 		x += (6*strlen(t));
 	}
 }
@@ -605,6 +636,10 @@ void HprintC( int x, int y, char *destbuf, char *temp )
 }
 void Hprint( const int x, const int y, char *destbuf, const char *szStr )
 {
+#ifdef _SDL2
+	SDL_Color _color = { HR, HG, HB };
+	SDL_Hprint(x, y, destbuf, szStr, _color, HangulAlign);
+#else
 	HDC		hdc;
 	LPDIRECTDRAWSURFACE	lpSurface = g_DirectDrawInfo.lpDirectDrawSurfaceBack;
 
@@ -624,6 +659,7 @@ void Hprint( const int x, const int y, char *destbuf, const char *szStr )
 
 		lpSurface->ReleaseDC( hdc );
 	}
+#endif
 }
 
 
@@ -676,6 +712,17 @@ void Hprint2( const int x, const int y, char *destbuf, char *s,... )
 {//020828 lsw
     BYTE temp[ 1000]={0,};
     va_list arg;
+	va_start(arg, s);
+	_vsnprintf((char*)temp, sizeof(temp), s, arg);
+	va_end(arg);	
+
+	const char* szStr = (char*)temp;
+	size_t sLen = strlen(szStr);
+
+#ifdef _SDL2
+	SDL_Color _color = { HR, HG, HB };
+	SDL_Hprint(x, y, destbuf, szStr, _color, HangulAlign);
+#else
 	HDC		hdc;
 	LPDIRECTDRAWSURFACE	lpSurface = g_DirectDrawInfo.lpDirectDrawSurfaceBack;
 
@@ -707,6 +754,7 @@ void Hprint2( const int x, const int y, char *destbuf, char *s,... )
 		::SetBkMode( hdc, nBkMode );
 		lpSurface->ReleaseDC( hdc );
 	}
+#endif
 }
 
 /*
@@ -911,7 +959,23 @@ void HprintBold( const int x, const int y, const int fc, const int bc, char *s, 
 {//020828 lsw
     BYTE temp[ 1000]={0,};
 
-    va_list arg;
+	va_list arg;
+	va_start(arg, s);
+	_vsnprintf((char*)temp, sizeof(temp), s, arg);
+	va_end(arg);
+	const char* szStr = (char*)temp;
+#ifdef _SDL2
+	SDL_Color _bc = { (char)(bc >> 24), (char)(bc >> 16), (char)(bc >> 8), (char)bc };
+
+	SDL_Hprint(x - 1, y, NULL, szStr, _bc, HangulAlign);
+	SDL_Hprint(x + 1, y, NULL, szStr, _bc, HangulAlign);
+	SDL_Hprint(x, y - 1, NULL, szStr, _bc, HangulAlign);
+	SDL_Hprint(x, y + 1, NULL, szStr, _bc, HangulAlign);
+
+	SDL_Color _fc = { (char)fc, (char)(fc >> 8), (char)(fc >> 16), (char)(fc >> 24) };
+
+	SDL_HprintBold(x, y, NULL, szStr, _fc, HangulAlign);
+#else
 	HDC		hdc;
 	LPDIRECTDRAWSURFACE	lpSurface = g_DirectDrawInfo.lpDirectDrawSurfaceBack;
 
@@ -959,6 +1023,7 @@ void HprintBold( const int x, const int y, const int fc, const int bc, char *s, 
 
 		lpSurface->ReleaseDC( hdc );
 	}
+#endif // _SDL2
 }
 
 

@@ -4,6 +4,7 @@ extern int	LoadHangulEnglishFont( char*hanfontname, char *engfontname );
 extern void  HangulOutputArea( int lx, int rx, int ty, int by );
 
 extern void  EndFont(void );
+extern void  SDL_EndFont(void);
 
 extern void	Hprint( const int x, const int y, char *destbuf, const char *szStr );
 extern void	Hprint2( const int x, const int y, char *destbuf, char *s,... );

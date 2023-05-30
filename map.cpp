@@ -2267,8 +2267,13 @@ void OutputSmallMap( void )//020730 lsw
 	{		
 		for( x = 0; x < g_Map.file.wWidth ; x+= 25 )
 		{	
+#ifndef _SDL2
 			g_DestBackBuf = GetSurfacePointer( g_DirectDrawInfo.lpDirectDrawSurfaceBack );
 			EraseScreen( &g_DirectDrawInfo, RGB( 0, 0, 0 ) );
+#else
+			g_DestBackBuf = SDL_GetSurfacePointer();
+			SDL_EraseScreen(); // Make White 0,0,0
+#endif	
 			g_Map.x = x;
 			g_Map.y = y;
 			Mapx = g_Map.x * TILE_SIZE;
@@ -2309,8 +2314,14 @@ void OutputSmallMap( void )//020730 lsw
 					if( sy >= yl ) goto NEXT__;
 				}
 			}
-NEXT__:
+		NEXT__:
+#ifndef _SDL2
 			FlipScreen( &g_DirectDrawInfo );
+#else
+			SDL_Draw();
+
+			SDL_FlipScreen();
+#endif
 			;
 ////////////////////////////
 		}
@@ -2472,18 +2483,39 @@ void LoadingLoadMaskTable( void )
 
 	ViewVersion( g_GameInfo.version );
 	
+#ifndef _SDL2
+	if (!InitDirectDraw(g_hwndMain, &g_DirectDrawInfo))
+	{
+		return 0;
+	}
+
+	EraseScreen(&g_DirectDrawInfo, RGB(0, 0, 0));
+	SetCursor(NULL);
+#else
+	SDL_EraseScreen(); // Make White 0,0,0
+	SetCursor(NULL);
+#endif	
 
 	WORD *t;
 	for( j = 31 ; j >= 14 ; j--)
 	{
+#ifndef _SDL2
 		g_DestBackBuf = GetSurfacePointer( g_DirectDrawInfo.lpDirectDrawSurfaceBack );
+#else
+		g_DestBackBuf = SDL_GetSurfacePointer();
+#endif
 		memcpy( g_DestBackBuf, LoadMaskBackBuf, dDxSize * SCREEN_HEIGHT );
 
 		t = (WORD *)g_DestBackBuf;
 		for( i = 0 ; i < (int)(dDxSize * SCREEN_HEIGHT) ; i +=2, t++)	{	
 			*t = rgbTable[ j * 65536 + *t];					}
-
+#ifndef _SDL2
 		FlipScreen( &g_DirectDrawInfo );
+#else
+		SDL_Draw();
+
+		SDL_FlipScreen();
+#endif
 	}
 
 	t = (WORD *)LoadMaskBackBuf;

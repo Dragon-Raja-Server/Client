@@ -1351,6 +1351,7 @@ void GetEffect2Pix(void)
 		{
 			for(int j=0; j<Effspr[i].Count; j++)
 			{
+#ifndef _SDL2
 				g_DestBackBuf = GetSurfacePointer( g_DirectDrawInfo.lpDirectDrawSurfaceBack );
 				EraseScreen( &g_DirectDrawInfo, RGB( 0x00, 0x00, 0x00 ) );
 
@@ -1358,6 +1359,14 @@ void GetEffect2Pix(void)
 
 				FlipScreen( &g_DirectDrawInfo );
 				CaptureScreen();
+#else
+				g_DestBackBuf = SDL_GetSurfacePointer();
+				SDL_EraseScreen(); // Make White 0,0,0
+				PutCompressedImage(320, 240, &Effspr[i].EffSpr[j]);
+				//SDL_Draw( );
+				SDL_FlipScreen();
+				CaptureScreen();
+#endif
 			}
 		}
 	}

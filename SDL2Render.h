@@ -4,14 +4,18 @@
 
 #include <SDL.h>
 #include <SDL_ttf.h>
-#include <minwindef.h>
 
 #ifdef __cplusplus
 extern "C"
 {
 #endif
+	extern SDL_Window* m_SDLhwndMain;
+	extern SDL_Renderer* m_SDLRenderer;
+	extern SDL_Texture* m_SDLTexture;
+	extern char* m_SDLPixels;
+	//#include <wtypes.h>
 
-
+	SDL_Window* GetSDLWindow();
 	extern BOOL	InitSDL();
 	extern void SDL_EraseScreen();
 	extern char* SDL_GetSurfacePointer();
@@ -22,9 +26,18 @@ extern "C"
 	extern void SDLKill();
 	extern void SDL_Lock();
 	extern void SDL_UnLock();
+	extern void SetSDLRenderer(SDL_Renderer* renderer);
+	extern void SetSDLWindow(SDL_Window* SDLWindow);
+	extern void SetSDLTexture(SDL_Texture* SDLTexture);	
 
+	extern SDL_Renderer* GetSDLRenderer();
+	extern SDL_Texture* GetSDLTexture();
+	extern char* GetSDLPixels();
+	extern void				SetSDLPixels(char* pixels);
+	extern SDL_Window* GetSDLWindow();
 #ifdef __cplusplus
 }
 #endif
 
 #endif //__SDL2RENDER_H__
+

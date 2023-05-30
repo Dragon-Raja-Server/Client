@@ -1774,7 +1774,11 @@ void lsw_menu_set()
 						0, 169, 300+10, 90, 20,COMBAT_SKILL_POINT_IMG, 31, 30);
 	}
 	{
+#ifndef _SDL2
 	::SMenuReg(MN_COMBAT_SKILL_DOING, 483, 361, 0,0,30);	//300 짜리 인터페이스 이니까//투명이라 0 0 이다
+#else
+	::SMenuReg(MN_COMBAT_SKILL_DOING, 683 + 40, 561 - 35, 0, 0, 30);
+#endif
 	//현재 저장된 스킬
 	::SMenuFTReg(MN_COMBAT_SKILL_DOING, 1, FT_CSD_MAIN_ICON,
 						0, 275, 89, 42, 42,COMBAT_SKILL_ICON_IMG, 72, 72);
@@ -3699,7 +3703,11 @@ void MenuSet2()// 필드를 추가할때 죽었을 경우 체크 되지 않아야 할 필드라면  IsNo
 	//////////////////////////////////////////////////////////////////////////////////////////
 	//메인 인터페이스 메뉴
 	{
+#ifndef _SDL2
 	::SMenuReg(MN_MAININTERFACE, 0, 371+GABY_SCREEN*2, MAININTERFACE_IMG,0,50,0); //y += 168 for 1024 - Thralas
+#else
+		::SMenuReg(MN_MAININTERFACE, (SCREEN_WIDTH / 2) - 400, SCREEN_HEIGHT - 110, MAININTERFACE_IMG, 0, 50, 0);
+#endif
 	//메인 메뉴 뛰우기	OK
 	SMenu[MN_MAININTERFACE].bActive=TRUE;
 	//스테이터스 메뉴 뛰우기 OK
@@ -3955,8 +3963,13 @@ void MenuSet2()// 필드를 추가할때 죽었을 경우 체크 되지 않아야 할 필드라면  IsNo
 // 사용한 매직 저장하고 보여주는 메뉴 
 	{
 	SMenu[MN_QUICK_MAGIC_PLUS].bActive=true;
-	SMenu[MN_QUICK_MAGIC_PLUS].x=0;
-	SMenu[MN_QUICK_MAGIC_PLUS].y=494;//357 이었음 //020515 lsw
+#ifndef _SDL2
+	SMenu[MN_QUICK_MAGIC_PLUS].x = 0;
+	SMenu[MN_QUICK_MAGIC_PLUS].y = 494;
+#else
+	SMenu[MN_QUICK_MAGIC_PLUS].x = 0;
+	SMenu[MN_QUICK_MAGIC_PLUS].y = 694 - 50;
+#endif
 	SMenu[MN_QUICK_MAGIC_PLUS].nFieldCount=2;
 
 	// 단축 매직 추가 ( 사용한 매직 누적 시키기 )
@@ -3988,8 +4001,13 @@ void MenuSet2()// 필드를 추가할때 죽었을 경우 체크 되지 않아야 할 필드라면  IsNo
 
 ////////////////////////////////////////////////////////////////////////////////
 //	단축 마법 배열 스크롤 메뉴
-	SMenu[MN_QUICK_MAGIC_SCROLL].x=261;
-	SMenu[MN_QUICK_MAGIC_SCROLL].y=441;
+#ifndef _SDL2
+	SMenu[MN_QUICK_MAGIC_SCROLL].x = 261;
+	SMenu[MN_QUICK_MAGIC_SCROLL].y = 441;
+#else
+	SMenu[MN_QUICK_MAGIC_SCROLL].x = 461;
+	SMenu[MN_QUICK_MAGIC_SCROLL].y = 641;
+#endif
 	SMenu[MN_QUICK_MAGIC_SCROLL].nImageNumber=21;
 	SMenu[MN_QUICK_MAGIC_SCROLL].nImageType=MAIN_ETC; 
 	SMenu[MN_QUICK_MAGIC_SCROLL].nFieldCount=2;
@@ -4018,7 +4036,11 @@ void MenuSet2()// 필드를 추가할때 죽었을 경우 체크 되지 않아야 할 필드라면  IsNo
 		const int iMnIndex	= MN_QUICK_SKILL;
 		const int iImg		= SKILL_MENU;
 		int iFtNum = 0;
-		::SMenuReg(iMnIndex, CENTER_X, 426, iImg,0,5);
+#ifndef _SDL2
+		::SMenuReg(iMnIndex, CENTER_X, 426, iImg, 0, 5);
+#else
+		::SMenuReg(iMnIndex, CENTER_X, 426, iImg, 0, 5);
+#endif
 		// 스킬 아이콘 화면 출력 
 		::SMenuFTReg(iMnIndex,iFtNum++,FT_QUICK_SKILL_PUT, 3, 
 			46,22, 35,35, iImg, 0, 3);
@@ -5232,7 +5254,13 @@ case FT_PEACE_BATTLE_PUT :
 		}break;
 	case FT_QUICK_MAGIC_PLUS : 
 		{
-			int magic_x = 0;		// 매직 아이콘을 찍을 시작위치
+#ifndef _SDL2
+		int magic_x = 376;		// 매직 아이콘을 찍을 시작위치
+		int time_x = 423;
+#else
+		int magic_x = 576;
+		int time_x = 623;
+#endif
 			RECT &rect = SubMenu->nField[j].rCheakBox;
 			switch( magic_plus_count )		// 그동안 사용한 마법의 백 판 찍기
 			{
@@ -5244,7 +5272,7 @@ case FT_PEACE_BATTLE_PUT :
 							magic_x = 379;					// 아이콘 처음 찍을 위치
 							::SetRect( rect, magic_x, -52, magic_x+44, 0 );
 							SMenu[MN_QUICK_MAGIC_SCROLL].bActive = false;
-							SMenu[MN_TIME_DISPLAY_ON_OFF].x = iMainX+423;
+							SMenu[MN_TIME_DISPLAY_ON_OFF].x = iMainX+ time_x;
 							SMenu[MN_TIME_DISPLAY_ON_OFF].y = iMainY-52;
 					}break;
 				case 2:

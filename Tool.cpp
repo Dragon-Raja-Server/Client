@@ -1186,13 +1186,14 @@ BOOL CALLBACK ModeSettingProc(HWND hDlg, UINT Message, WPARAM wParam, LPARAM lPa
 
 void ModeSetting ( HWND hwnd, HINSTANCE hInstance)
 {
-#ifdef _DEBUG
+#ifndef _SDL2
+	#ifdef _DEBUG
 	FILE *fp = Fopen( DEVELOPEMENT_ENVIR_FILENAME, "rb" );
 	if(fp) {
 		fclose(fp);
 		DialogBox( hInstance, MAKEINTRESOURCE( IDD_DEVELOPE_ENVIR ), NULL, (DLGPROC)ModeSettingProc );
 	}
-#else
+	#else
 	AGAIN_:
 
 	DialogBox( hInstance, MAKEINTRESOURCE( IDD_DEVELOPE_ENVIR1 ), NULL, (DLGPROC)ModeSettingProc );
@@ -1206,6 +1207,12 @@ void ModeSetting ( HWND hwnd, HINSTANCE hInstance)
 			goto AGAIN_;
 		}
 	}
+	#endif
+#else
+	SysInfo.music = 1;
+	SysInfo.effect = 1;
+	SysInfo.dx = 0;
+	g_DirectDrawInfo.bFullscreen = false;
 #endif
 /*#else 
 	

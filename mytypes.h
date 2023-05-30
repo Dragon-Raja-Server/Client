@@ -82,22 +82,39 @@ enum NPC_KIND
 #define	SCREENMODE_WINDOW			0
 #define	SCREENMODE_FULLSCREEN		1
 
-#ifdef USE_1024 //1024x768
+//#ifdef USE_1024 //1024x768
+//
+//#define	SCREEN_WIDTH				1024
+//#define	SCREEN_HEIGHT				768
+//
+//#define GAME_SCREEN_XSIZE			1024
+//#define GAME_SCREEN_YSIZE			768//(768-(600-472))// 352
+//
+//#else
+//
+//#define	SCREEN_WIDTH				800
+//#define	SCREEN_HEIGHT				600
+//
+//#define GAME_SCREEN_XSIZE			800
+//#define GAME_SCREEN_YSIZE			520// 352//020515 lsw
+//
+//#endif
 
-#define	SCREEN_WIDTH				1024
-#define	SCREEN_HEIGHT				768
 
-#define GAME_SCREEN_XSIZE			1024
-#define GAME_SCREEN_YSIZE			768//(768-(600-472))// 352
-
-#else
-
+#ifndef _SDL2
 #define	SCREEN_WIDTH				800
 #define	SCREEN_HEIGHT				600
-
 #define GAME_SCREEN_XSIZE			800
-#define GAME_SCREEN_YSIZE			520// 352//020515 lsw
-
+#define GAME_SCREEN_YSIZE			520
+#else
+//#define	SCREEN_WIDTH				1280
+//#define	SCREEN_HEIGHT				768
+//#define GAME_SCREEN_XSIZE			1280
+//#define GAME_SCREEN_YSIZE			768
+#define	SCREEN_WIDTH				800
+#define	SCREEN_HEIGHT				600
+#define GAME_SCREEN_XSIZE			800
+#define GAME_SCREEN_YSIZE			520
 #endif
 
 #define RADARXL 640

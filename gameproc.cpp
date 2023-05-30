@@ -411,7 +411,8 @@ BOOL StartMenuProc(LPDIRECTDRAWINFO lpDirectDrawInfo)
 	{
 		goto SKIP__;
 	}
-	
+#ifndef _SDL2
+
 	if (g_DirectDrawInfo.lpDirectDraw == NULL)
 	{
 		if (!InitDirectDraw(g_hwndMain, &g_DirectDrawInfo))
@@ -421,13 +422,23 @@ BOOL StartMenuProc(LPDIRECTDRAWINFO lpDirectDrawInfo)
 	}
 	
 	g_DestBackBuf = GetSurfacePointer( g_DirectDrawInfo.lpDirectDrawSurfaceBack );											
+#else
+	g_DestBackBuf = SDL_GetSurfacePointer();
+#endif // !_SDL2
 	StartMenuChecking();
 	StartMenuDisplay();
 	g_nLButtonState = 0;g_nRButtonState = 0;
 	g_nLDButtonState = 0; g_nRDButtonState = 0;
 	ViewTips(); // 001030 KHS	
 	CursorDisplayBack();
+#ifndef _SDL2
 	FlipScreen(lpDirectDrawInfo);
+#else
+	SDL_FlipScreen();
+	SDL_Draw();
+#endif // !_SDL2
+
+	
 
 //<soto-HK	
 	g_FrameMgr.DoFrameDelay(&pTemp);
@@ -590,8 +601,12 @@ JUMP_SKIP:
 	{	//< CSD-030723
 		goto SKIP__;
 	}	//> CSD-030723
-	
+#ifndef _SDL2
 	g_DestBackBuf = GetSurfacePointer( g_DirectDrawInfo.lpDirectDrawSurfaceBack );
+#else
+	g_DestBackBuf = SDL_GetSurfacePointer();
+#endif
+
 	if( SysInfo.notconectserver || tool_DrawMap )	EraseScreen( lpDirectDrawInfo, RGB( 0x00, 0x00, 0x00 ) );
 	
 	curr_direct_draw_info = lpDirectDrawInfo;		// 1027 YGI
@@ -691,7 +706,12 @@ JUMP_SKIP:
 	g_ProFileMgr.StopCounter("GameProc");
 	g_ProFileMgr.DrawCounter(g_ProFileType); 
 #endif 	
+#ifndef _SDL2
 	FlipScreen( lpDirectDrawInfo );
+#else
+	SDL_FlipScreen();
+	SDL_Draw();
+#endif
 
 //<soto-HK
 	g_FrameMgr.DoFrameDelay(&pTemp);
@@ -777,14 +797,16 @@ BOOL GameTestProc( LPDIRECTDRAWINFO lpDirectDrawInfo )
 		tickcount -= skip + 2;
 	}	
 //-------------------------------------------------
-
+#ifndef _SDL2
 	if( g_DirectDrawInfo.lpDirectDraw == NULL)
 	{
 		if(!InitDirectDraw( g_hwndMain, &g_DirectDrawInfo )) return  FALSE;
 	}
 	
 	g_DestBackBuf = GetSurfacePointer( g_DirectDrawInfo.lpDirectDrawSurfaceBack );
-	
+#else
+	g_DestBackBuf = SDL_GetSurfacePointer();
+#endif
 //	MDrawObject( lpDirectDrawInfo );
 	DisplaySpriteUnderTile();
 	MapDisplay( 0 );
@@ -831,10 +853,16 @@ BOOL GameTestProc( LPDIRECTDRAWINFO lpDirectDrawInfo )
 
 	CursorDisplayBack();
 	
+#ifndef _SDL2
+	FlipScreen(lpDirectDrawInfo);
+#else
+	SDL_FlipScreen();
+	SDL_Draw();
+#endif // !_SDL2
+
 	
 	
 	
-	FlipScreen( lpDirectDrawInfo );
 	while( ( (::timeGetTime()) - tick) < (DWORD)skip ) { }
 
 //SKIP__:

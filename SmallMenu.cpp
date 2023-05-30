@@ -3313,7 +3313,7 @@ void LoofSetHeroAbility( int ability[] )	// 캐릭터의 토탈 능력치 셋
 	
 	PrintNoteMeeting( g_Note_Meeting );		// 신전 예배가 시작하기 1시간전에 알려 준다.
 	CheckPeaceBattle();		// battle, peace mode
-	
+#ifndef _SDL2
 	if(::IsChatBoxActive())
 	{
 		SMenu[MN_QUICK_MAGIC_PLUS].y	= 494;
@@ -3326,7 +3326,20 @@ void LoofSetHeroAbility( int ability[] )	// 캐릭터의 토탈 능력치 셋
 		SMenu[MN_QUICK_MAGIC_SCROLL].y	= 441+24;
 		SMenu[MN_QUICK_SKILL].y			= 426+25;
 	}
-	
+#else
+	if (::IsChatBoxActive())
+	{
+		SMenu[MN_QUICK_MAGIC_PLUS].y = 694 - 50;
+		SMenu[MN_QUICK_MAGIC_SCROLL].y = 641 - 50;
+		SMenu[MN_QUICK_SKILL].y = 626 - 50;
+	}
+	else
+	{
+		SMenu[MN_QUICK_MAGIC_PLUS].y = 694 + 24 - 50;
+		SMenu[MN_QUICK_MAGIC_SCROLL].y = 641 + 24 - 50;
+		SMenu[MN_QUICK_SKILL].y = 626 + 25 - 50;
+	}
+#endif
 	if( g_MagicMenuOn && !SMenu[MN_QUICK_SKILL].bActive )		// 매직 창 열기
 	{
 		SMenu[MN_QUICK_MAGIC_PLUS].bActive = true;

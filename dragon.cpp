@@ -152,8 +152,6 @@ extern void		ItemRead();
 extern void PutStartLodingImg( );		// 0127 YGI
 			
 #include "Path.h"
-#include "SDL2Render.h"
-
 			
 char nOldVal[MAX_PATH];
 			
@@ -445,11 +443,20 @@ int APIENTRY WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdL
 	}
 
 	InitSpriteTransTable( g_DirectDrawInfo.lpDirectDrawSurfacePrimary );
-
+#ifndef _SDL2
 	g_DestBackBuf = GetSurfacePointer( g_DirectDrawInfo.lpDirectDrawSurfaceBack );
 	EraseScreen( &g_DirectDrawInfo, (WORD)RGB( 0xff, 0xff, 0xff ) );
 	PutStartLodingImg( );
 	FlipScreen( &g_DirectDrawInfo );
+#else
+	g_DestBackBuf = SDL_GetSurfacePointer();
+	SDL_EraseScreen();
+	PutStartLodingImg();
+	SDL_Draw();
+	SDL_FlipScreen();
+
+#endif
+
 	
 	LoadSoundList();
 //	RenameSoundFile(); finito - not used or needed
@@ -880,7 +887,9 @@ void ExitApplication( const eExitAppType eEAType )
 
 	delete g_pBill;
 	delete lan;
-
+#ifdef _SDL2
+	SDLKill();
+#endif
 	exit(0);
 }
 	
@@ -1138,7 +1147,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 				{
 					g_bIsActive = TRUE;
 					g_FrameMgr.InitTime();
-					
+#ifndef _SDL2
 					if (g_DirectDrawInfo.lpDirectDraw == NULL)
 					{
 						if (!InitDirectDraw(g_hwndMain, &g_DirectDrawInfo))
@@ -1147,15 +1156,26 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 						}
 						
 						EraseScreen(&g_DirectDrawInfo, RGB(0,0,0));
+						SetCursor(NULL);
 					}
-					
+#else
+					if (m_SDLhwndMain == NULL)
+					{
+						if (!InitSDL())
+						{
+							return 0;
+						}
+						SDL_EraseScreen();
+						SetCursor(NULL);
+					}
+#endif
 					break;
 				}
 			case WA_INACTIVE:
 				{
 					g_bIsActive = FALSE;
 					g_FrameMgr.InitTime();
-
+#ifndef _SDL2
 					if (g_DirectDrawInfo.lpDirectDraw != NULL)
 					{
 						if (SysInfo.dx == 0)
@@ -1169,12 +1189,13 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 							g_DirectDrawInfo.lpDirectDraw = NULL;
 						}
 					}
-
+#endif
 					break;
 				}
 			case WA_ACTIVE:
 				{
 					g_bIsActive = TRUE;
+#ifndef  _SDL2
 
 					if (g_DirectDrawInfo.lpDirectDraw == NULL)
 					{
@@ -1186,7 +1207,17 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 						EraseScreen(&g_DirectDrawInfo, RGB(0,0,0));
 						SetCursor( NULL );
 					}
-
+#else
+					if (m_SDLhwndMain == NULL)
+					{
+						if (!InitSDL())
+						{
+							return 0;
+						}
+						SDL_EraseScreen();
+						SetCursor(NULL);
+					}
+#endif // ! _SDL2
 					break;
 				}
 			}
@@ -1209,6 +1240,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		{						
 			if (g_bIsActive)
 			{
+#ifndef _SDL2
 				if (g_DirectDrawInfo.bFullscreen)
 				{						
 					SetRect(&g_DirectDrawInfo.rectPrimarySurface, 0, 0, GetSystemMetrics(SM_CXSCREEN), GetSystemMetrics(SM_CYSCREEN));
@@ -1218,7 +1250,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 					GetClientRect(hWnd, &g_DirectDrawInfo.rectPrimarySurface);
 					ClientToScreen(hWnd, (LPPOINT)&g_DirectDrawInfo.rectPrimarySurface);
 					ClientToScreen(hWnd, (LPPOINT)&g_DirectDrawInfo.rectPrimarySurface + 1);
-				}									
+				}	
+#endif
 			}
 
 			break;										
@@ -1227,8 +1260,12 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		{	
 			if (g_bIsActive)
 			{
+#ifndef _SDL2
 				hDC = BeginPaint(hWnd, &ps);
 				EndPaint(hWnd, &ps);
+#else
+				SDL_UpdateWindowSurface(m_SDLhwndMain);
+#endif
 			}
 
 			break;

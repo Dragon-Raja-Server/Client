@@ -2274,14 +2274,21 @@ int RecvChangeMap( t_server_change_map *p )		// 0918	// 0923 YGI
 		}
 		else
 		{
-
+#ifndef _SDL2
 			if( g_DirectDrawInfo.lpDirectDrawSurfaceBack )
 			{
 				g_DestBackBuf = GetSurfacePointer( g_DirectDrawInfo.lpDirectDrawSurfaceBack );
 				SettingChangMapMenu( c ); 
 				FlipScreen( &g_DirectDrawInfo );
 			}
-							
+#else
+			g_DestBackBuf = SDL_GetSurfacePointer();
+			SettingChangMapMenu(c);
+
+			SDL_Draw();
+
+			SDL_FlipScreen();
+#endif
 			g_nLButtonState = 0; g_nRButtonState   = 0;
 			g_nLDButtonState = 0; g_nRDButtonState = 0;
 			ResetEffect(Hero);

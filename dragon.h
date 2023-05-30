@@ -8,6 +8,9 @@
 #include <windows.h>
 #include <windowsx.h>
 #include <time.h>
+#ifdef _SDL2
+#include "SDL2Render.h"
+#endif
 
 #include "directdraw.h"
 #include "directinput.h"
