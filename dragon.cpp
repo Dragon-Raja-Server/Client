@@ -44,6 +44,9 @@
 //< CSD-CN-031215
 #include "SecuritySystem.h"
 //> CSD-CN-031215
+
+#include "global.h"
+
 extern SMENU    SMenu[ MAX_MENU];		// startmenu.cpp
 extern NPC_INFO g_infNpc[MAX_CHARACTER_SPRITE_]; // CSD-030419
 extern ITEM_INFO g_itemref[MAX_ITEM_MUTANT_KIND]; // CSD-030419
@@ -52,8 +55,8 @@ extern void DoQuickmemoryByKeyInput(const int iInputKey,bool bIsDikCheck);
 
 ///////////////////////////////////////////////////////////////////////////////
 // Global Variables:
-HWND				g_hwndMain;
-HINSTANCE			g_hInstance;
+//HWND				g_hwndMain;
+//HINSTANCE			g_hInstance;
 	
 GAMEINFO			g_GameInfo;
 	
@@ -150,7 +153,7 @@ extern void PutStartLodingImg( );		// 0127 YGI
 			
 #include "Path.h"
 #include "SDL2Render.h"
-#include "EnCryptMgr.h"
+
 			
 char nOldVal[MAX_PATH];
 			
@@ -427,7 +430,7 @@ int APIENTRY WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdL
 		ExitApplication(EA_NORMAL);	//051013_KCH memory leak Á¦°Å
 		return	FALSE;
 	}
-	SDL_SetWindowTitle(g_pl11l->GetSDLWindow(), "DragonRaja - Rogério");
+	SDL_SetWindowTitle(m_SDLhwndMain, g_szTitle);
 
 #endif
 	if ( InitDirectInput( g_hwndMain, g_hInstance, g_bIsActive ) != DI_OK )

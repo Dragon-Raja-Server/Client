@@ -318,8 +318,6 @@
     <ClCompile Include="DualMgr.cpp" />
     <ClCompile Include="EditWndMgr.cpp" />
     <ClCompile Include="Effect.cpp" />
-    <ClCompile Include="EnCryptClass.cpp" />
-    <ClCompile Include="EnCryptMgr.cpp" />
     <ClCompile Include="exchangemgr.cpp" />
     <ClCompile Include="FrameMgr.cpp" />
     <ClCompile Include="ftwbrk.cpp" />
@@ -371,6 +369,7 @@
     <ClCompile Include="QuestFunction.cpp" />
     <ClCompile Include="QuestLog.cpp" />
     <ClCompile Include="SDL2Render.cpp" />
+    <ClCompile Include="SDL_FontCache.cpp" />
     <ClCompile Include="SecuritySystem.cpp" />
     <ClCompile Include="Skill.cpp" />
     <ClCompile Include="SkillTool.cpp" />
@@ -430,13 +429,12 @@
     <ClInclude Include="DualMgr.h" />
     <ClInclude Include="EditWndMgr.h" />
     <ClInclude Include="Effect.h" />
-    <ClInclude Include="EnCryptClass.h" />
-    <ClInclude Include="EnCryptMgr.h" />
     <ClInclude Include="exchangemgr.h" />
     <ClInclude Include="FileMgr.h" />
     <ClInclude Include="FrameMgr.h" />
     <ClInclude Include="ftwbrk.h" />
     <ClInclude Include="gameproc.h" />
+    <ClInclude Include="global.h" />
     <ClInclude Include="Hangul.h" />
     <ClInclude Include="Hong_Light.h" />
     <ClInclude Include="Hong_Sprite.h" />
@@ -490,6 +488,7 @@
     <ClInclude Include="SDDIALOG.H" />
     <ClInclude Include="SDL2Render.h" />
     <ClInclude Include="Sdlang.h" />
+    <ClInclude Include="SDL_FontCache.h" />
     <ClInclude Include="SealStone.h" />
     <ClInclude Include="SecuritySystem.h" />
     <ClInclude Include="Singleton.h" />
